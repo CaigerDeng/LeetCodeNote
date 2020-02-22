@@ -5,15 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 /// <summary>
-/// 1. 两数之和: https://leetcode-cn.com/problems/two-sum/
+/// 1. 两数之和
+/// https://leetcode-cn.com/problems/two-sum/
 /// </summary>
 
 namespace LeetCodeNote.Array
 {
-    public class Solution
+    public class Solution_1
     {
 
-        //solution 0
+        //method 0
         public int[] TwoSum_0(int[] nums, int target)
         {
             for (int i = 0; i < nums.Length; i++)
@@ -24,14 +25,12 @@ namespace LeetCodeNote.Array
                     {
                         return new[] { i, j };
                     }
-
                 }
-
             }
             return null;
         }
 
-        //solution 1 
+        //method 1 
         public int[] TwoSum_1(int[] nums, int target)
         {
             Dictionary<int, int> dic = new Dictionary<int, int>();
@@ -55,7 +54,7 @@ namespace LeetCodeNote.Array
             return null;
         }
 
-        //solution 2 
+        //method 2 
         public int[] TwoSum_2(int[] nums, int target)
         {
             Dictionary<int, int> dic = new Dictionary<int, int>();

@@ -4,3 +4,6 @@ G:\LeetCodeNote\LeetCodeNote\LeetCodeNote\bin\Debug\LeetCodeNote.pdb
 G:\LeetCodeNote\LeetCodeNote\LeetCodeNote\obj\Debug\LeetCodeNote.csprojResolveAssemblyReference.cache
 G:\LeetCodeNote\LeetCodeNote\LeetCodeNote\obj\Debug\LeetCodeNote.exe
 G:\LeetCodeNote\LeetCodeNote\LeetCodeNote\obj\Debug\LeetCodeNote.pdb
+C:\LeetCodeNote\LeetCodeNote\LeetCodeNote\bin\Debug\LeetCodeNote.exe.config
+C:\LeetCodeNote\LeetCodeNote\LeetCodeNote\obj\Debug\LeetCodeNote.exe
+C:\LeetCodeNote\LeetCodeNote\LeetCodeNote\obj\Debug\LeetCodeNote.pdb

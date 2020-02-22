@@ -11,12 +11,12 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution so = new Solution();
-            int[] arr = new int[] { 3, 3 };
-            int[] res = so.TwoSum_2(arr, 6);
+            //Solution so = new Solution();
+            //int[] arr = new int[] { 3, 3 };
+            //int[] res = so.TwoSum_2(arr, 6);
             
 
-            PrintArr(res);
+            //PrintArr(res);
 
 
             Console.ReadLine();
