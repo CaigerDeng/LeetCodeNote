@@ -11,12 +11,13 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            //Solution so = new Solution();
-            //int[] arr = new int[] { 3, 3 };
-            //int[] res = so.TwoSum_2(arr, 6);
-            
+            Solution_27 so = new Solution_27();
+            int[] arr = new int[] { 0, 1, 2, 2, 3, 0, 4, 2 };
+            int res = so.RemoveElement(arr, 2);
 
-            //PrintArr(res);
+
+            PrintArr(arr);
+            Console.WriteLine("count:{0}", res);
 
 
             Console.ReadLine();
