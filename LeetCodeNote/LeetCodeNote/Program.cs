@@ -11,13 +11,11 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_27 so = new Solution_27();
-            int[] arr = new int[] { 0, 1, 2, 2, 3, 0, 4, 2 };
-            int res = so.RemoveElement(arr, 2);
+            Solution_88 so = new Solution_88();
+            int[] nums1 = { 1, 2, 3, 0, 0, 0 };
+            int[] nums2 = { 2, 5, 6 };
+            so.Merge_0(nums1, 3, nums2, 3);
 
-
-            PrintArr(arr);
-            Console.WriteLine("count:{0}", res);
 
 
             Console.ReadLine();
@@ -42,6 +40,6 @@ namespace LeetCodeNote
 
     }
 
-    
+
 
 }
