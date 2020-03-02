@@ -48,7 +48,9 @@
     <Compile Include="Array\027_RemoveElement.cs" />
     <Compile Include="Array\035_SearchInsert.cs" />
     <Compile Include="Array\066_PlusOne.cs" />
-    <Compile Include="Array\88_Merge.cs" />
+    <Compile Include="Array\118_Generate.cs" />
+    <Compile Include="Array\088_Merge.cs" />
+    <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
