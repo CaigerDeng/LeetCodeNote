@@ -11,10 +11,10 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_88 so = new Solution_88();
+            Solution_217 so = new Solution_217();
             int[] nums1 = { 1, 2, 3, 0, 0, 0 };
             int[] nums2 = { 2, 5, 6 };
-            so.Merge_0(nums1, 3, nums2, 3);
+            so.ContainsDuplicate_0(nums1);
 
 
 
