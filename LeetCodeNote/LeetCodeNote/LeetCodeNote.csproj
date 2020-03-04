@@ -52,6 +52,7 @@
     <Compile Include="Array\088_Merge.cs" />
     <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Array\217_ContainsDuplicate.cs" />
+    <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
