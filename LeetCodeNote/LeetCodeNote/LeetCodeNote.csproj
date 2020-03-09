@@ -55,6 +55,7 @@
     <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
     <Compile Include="Array\268_missingNumber.cs" />
     <Compile Include="Array\283_MoveZeroes.cs" />
+    <Compile Include="Array\414_ThirdMax.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
