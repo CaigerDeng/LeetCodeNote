@@ -11,10 +11,10 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_414 so = new Solution_414();
-            int[] nums1 = { 1, 2 };
-            int[] nums2 = { 2, 5, 6 };
-            Console.WriteLine("res:{0}", so.ThirdMax_0(nums1));
+            Solution_509 so = new Solution_509();
+            //int[] nums1 = { 1, 2 };
+            //int[] nums2 = { 2, 5, 6 };
+            Console.WriteLine("res:{0}", so.Fib_2(2));
 
 
 
