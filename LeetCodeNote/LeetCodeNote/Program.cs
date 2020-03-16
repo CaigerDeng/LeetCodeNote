@@ -11,10 +11,13 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_509 so = new Solution_509();
-            //int[] nums1 = { 1, 2 };
+            Solution_532 so = new Solution_532();
+            int[] nums1 = new[] { 1, 3, 1, 5, 4 };
+
             //int[] nums2 = { 2, 5, 6 };
-            Console.WriteLine("res:{0}", so.Fib_2(2));
+
+
+            Console.WriteLine("res:{0}", so.FindPairs_1(nums1, 0));
 
 
 

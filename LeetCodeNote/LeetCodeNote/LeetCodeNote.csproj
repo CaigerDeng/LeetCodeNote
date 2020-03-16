@@ -59,6 +59,7 @@
     <Compile Include="Array\448_FindDisappearedNumbers.cs" />
     <Compile Include="Array\485_FindMaxConsecutiveOnes.cs" />
     <Compile Include="Array\509_Fib.cs" />
+    <Compile Include="Array\532_FindPairs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
