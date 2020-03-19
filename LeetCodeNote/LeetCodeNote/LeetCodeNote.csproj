@@ -61,6 +61,7 @@
     <Compile Include="Array\509_Fib.cs" />
     <Compile Include="Array\532_FindPairs.cs" />
     <Compile Include="Array\561_ArrayPairSum.cs" />
+    <Compile Include="Array\566_MatrixReshape.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
