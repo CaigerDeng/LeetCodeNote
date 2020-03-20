@@ -11,8 +11,8 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_566 so = new Solution_566();
-            int[] nums1 = new[] { 1, 3, 1, 5, 4 };
+            Solution_605 so = new Solution_605();
+            int[] nums1 = new[] { 1, 0, 1, 0, 1, 0, 1};
 
             //int[] nums2 = { 2, 5, 6 };
 
@@ -20,9 +20,9 @@ namespace LeetCodeNote
             //            int[,] nums = new int[,] { {1, 2}, {3, 4}, {5, 6} };
             //            Console.WriteLine("{0}, {1}, {2}", nums.Length, nums.GetLength(0), nums.GetLength(1));
 
-            int[][] arr = new int[2][];
-            arr[0] = new int[] { 1, 2 };
-            arr[1] = new int[] { 3, 4 };
+            //int[][] arr = new int[2][];
+            //arr[0] = new int[] { 1, 2 };
+            //arr[1] = new int[] { 3, 4 };
 
 
             //arr[1] = new int[] { 3, 4 };
@@ -31,7 +31,7 @@ namespace LeetCodeNote
 
 
 
-            Console.WriteLine("res:{0}", so.MatrixReshape_0(arr, 2, 2));
+            Console.WriteLine("res:{0}", so.CanPlaceFlowers_1(nums1, 0));
 
 
 
