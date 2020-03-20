@@ -48,6 +48,7 @@
         }
 
         // method 1
+        // 优化method 0对count >= n的检测
         public bool CanPlaceFlowers_1(int[] flowerbed, int n)
         {
             int i = 0;
