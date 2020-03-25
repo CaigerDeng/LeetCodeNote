@@ -65,6 +65,7 @@
     <Compile Include="Array\605_CanPlaceFlowers.cs" />
     <Compile Include="Array\628_MaximumProduct.cs" />
     <Compile Include="Array\643_FindMaxAverage.cs" />
+    <Compile Include="Array\661_ImageSmoother.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
