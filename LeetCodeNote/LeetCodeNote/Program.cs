@@ -11,8 +11,8 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_643 so = new Solution_643();
-            int[] nums1 = new[] { 1, 12, -5, -6, 50, 3 };
+            Solution_665 so = new Solution_665();
+            int[] nums1 = new[] { 5, 2, 7, 6 };
 
             //int[] nums2 = { 2, 5, 6 };
 
@@ -31,7 +31,7 @@ namespace LeetCodeNote
 
 
 
-            Console.WriteLine("res:{0}", so.FindMaxAverage_0(nums1, 4));
+            Console.WriteLine("res:{0}", so.CheckPossibility_0(nums1));
 
 
 
