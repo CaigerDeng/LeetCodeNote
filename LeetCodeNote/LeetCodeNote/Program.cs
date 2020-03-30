@@ -28,10 +28,8 @@ namespace LeetCodeNote
             //arr[1] = new int[] { 3, 4 };
             //Console.WriteLine("{0}, {1}, {2}", arr.Length, arr[0].Length, arr[1].Length);
 
-
-
-
-            Console.WriteLine("res:{0}", so.CheckPossibility_0(nums1));
+           
+            //            Console.WriteLine("res:{0}", so.CheckPossibility_0(nums1));
 
 
 
