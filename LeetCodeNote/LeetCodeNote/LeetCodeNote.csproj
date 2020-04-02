@@ -70,6 +70,7 @@
     <Compile Include="Array\674_FindLengthOfLCIS.cs" />
     <Compile Include="Array\697_FindShortestSubArray.cs" />
     <Compile Include="Array\717_IsOneBitCharacter.cs" />
+    <Compile Include="Array\724_PivotIndex.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
