@@ -73,6 +73,7 @@
     <Compile Include="Array\724_PivotIndex.cs" />
     <Compile Include="Array\746_MinCostClimbingStairs.cs" />
     <Compile Include="Array\747_DominantIndex.cs" />
+    <Compile Include="Array\766_IsToeplitzMatrix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
