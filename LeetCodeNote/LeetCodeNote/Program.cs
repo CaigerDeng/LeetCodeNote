@@ -14,22 +14,10 @@ namespace LeetCodeNote
             Solution_665 so = new Solution_665();
             int[] nums1 = new[] { 5, 2, 7, 6 };
 
-            //int[] nums2 = { 2, 5, 6 };
-
-
-            //            int[,] nums = new int[,] { {1, 2}, {3, 4}, {5, 6} };
-            //            Console.WriteLine("{0}, {1}, {2}", nums.Length, nums.GetLength(0), nums.GetLength(1));
-
-            //int[][] arr = new int[2][];
-            //arr[0] = new int[] { 1, 2 };
-            //arr[1] = new int[] { 3, 4 };
-
-
-            //arr[1] = new int[] { 3, 4 };
-            //Console.WriteLine("{0}, {1}, {2}", arr.Length, arr[0].Length, arr[1].Length);
-
-           
-            //            Console.WriteLine("res:{0}", so.CheckPossibility_0(nums1));
+            int[][] arr = new int[5][]; // 5代表有arr[0]，arr[1]，arr[2]，arr[3]，arr[4]
+            arr[0] = new int[] { 1, 2, 3, 4 };
+            arr[1] = new int[] { 3, 4, 5 };
+            Console.WriteLine("{0}, {1}, {2}", arr.Length, arr[0].Length, arr[1].Length); // 输出：5, 4, 3 
 
 
 

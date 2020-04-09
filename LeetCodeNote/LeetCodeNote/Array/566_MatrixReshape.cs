@@ -14,7 +14,7 @@ namespace LeetCodeNote.Array
         public int[][] MatrixReshape_0(int[][] nums, int r, int c)
         {
             // int[][]交错数组
-            // int[][] arr = new int[5][];
+            // int[][] arr = new int[5][]; // 5代表有arr[0]，arr[1]，arr[2]，arr[3]，arr[4]，arr.Length就代表数组行
             // arr[0] = new int[] { 1, 2 };
             // arr[1] = new int[] { 3, 4, 5 };
             // Console.WriteLine("{0}, {1}, {2}", arr.Length, arr[0].Length, arr[1].Length); // 输出：5, 2, 3 
