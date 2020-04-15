@@ -6,7 +6,7 @@ namespace LeetCodeNote.Array
     /// 830. 较大分组的位置
     /// https://leetcode-cn.com/problems/positions-of-large-groups/
     /// </summary>
-    /// 
+     
     public class Solution_830
     {
         // method 0

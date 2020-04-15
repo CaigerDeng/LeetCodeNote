@@ -76,6 +76,7 @@
     <Compile Include="Array\766_IsToeplitzMatrix.cs" />
     <Compile Include="Array\830_LargeGroupPositions.cs" />
     <Compile Include="Array\832_FlipAndInvertImage.cs" />
+    <Compile Include="Array\849_MaxDistToClosest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
