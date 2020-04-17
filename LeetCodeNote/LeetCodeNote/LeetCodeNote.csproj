@@ -78,6 +78,7 @@
     <Compile Include="Array\832_FlipAndInvertImage.cs" />
     <Compile Include="Array\849_MaxDistToClosest.cs" />
     <Compile Include="Array\888_FairCandySwap.cs" />
+    <Compile Include="Array\896_IsMonotonic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
