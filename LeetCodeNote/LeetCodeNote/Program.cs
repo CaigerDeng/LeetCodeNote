@@ -11,8 +11,8 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_830 so = new Solution_830();
-            int[] nums1 = new[] { 5, 2, 7, 6 };
+            Solution_905 so = new Solution_905();
+            int[] nums1 = new[] { 3, 1, 2, 4 };
 
             //int[][] arr = new int[5][]; // 5代表有arr[0]，arr[1]，arr[2]，arr[3]，arr[4]
             //arr[0] = new int[] { 1, 2, 3, 4 };
@@ -20,7 +20,7 @@ namespace LeetCodeNote
             //Console.WriteLine("{0}, {1}, {2}", arr.Length, arr[0].Length, arr[1].Length); // 输出：5, 4, 3 
 
 
-            Console.WriteLine(so.LargeGroupPositions_0("aaa"));
+            Console.WriteLine(so.SortArrayByParity_0(nums1));
 
             Console.ReadLine();
 
