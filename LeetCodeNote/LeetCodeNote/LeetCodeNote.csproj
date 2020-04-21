@@ -80,6 +80,7 @@
     <Compile Include="Array\888_FairCandySwap.cs" />
     <Compile Include="Array\896_IsMonotonic.cs" />
     <Compile Include="Array\905_SortArrayByParity.cs" />
+    <Compile Include="Array\914_HasGroupsSizeX.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
