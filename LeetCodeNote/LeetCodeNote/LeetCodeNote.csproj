@@ -77,6 +77,7 @@
     <Compile Include="Array\830_LargeGroupPositions.cs" />
     <Compile Include="Array\832_FlipAndInvertImage.cs" />
     <Compile Include="Array\849_MaxDistToClosest.cs" />
+    <Compile Include="Array\867_Transpose.cs" />
     <Compile Include="Array\888_FairCandySwap.cs" />
     <Compile Include="Array\896_IsMonotonic.cs" />
     <Compile Include="Array\905_SortArrayByParity.cs" />
