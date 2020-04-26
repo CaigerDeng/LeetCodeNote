@@ -84,6 +84,7 @@
     <Compile Include="Array\914_HasGroupsSizeX.cs" />
     <Compile Include="Array\922_SortArrayByParityII.cs" />
     <Compile Include="Array\941_ValidMountainArray.cs" />
+    <Compile Include="Array\977_SortedSquares.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
