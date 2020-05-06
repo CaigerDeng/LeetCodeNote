@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using LeetCodeNote.Array;
@@ -11,17 +12,22 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_989 so = new Solution_989();
-            int[] nums1 = new[] { 1, 2, 0, 0 };
+            Solution_1002 so = new Solution_1002();
+            //int[] nums1 = new[] { 1, 2, 0, 0 };
 
             //int[][] arr = new int[5][]; // 5代表有arr[0]，arr[1]，arr[2]，arr[3]，arr[4]
             //arr[0] = new int[] { 1, 2, 3, 4 };
             //arr[1] = new int[] { 3, 4, 5 };
             //Console.WriteLine("{0}, {1}, {2}", arr.Length, arr[0].Length, arr[1].Length); // 输出：5, 4, 3 
 
-            
+            string[] arr = new[] { "cool", "lock", "cook" };
+            List<string> res = (List<string>)so.CommonChars_0(arr);
 
-            Console.WriteLine(so.AddToArrayForm_0(nums1, 34));
+            PrintList(res);
+
+
+
+            Console.WriteLine();
 
             Console.ReadLine();
 
@@ -35,10 +41,16 @@ namespace LeetCodeNote
                 Console.Write(arr[i] + ", ");
             }
             Console.WriteLine("\n");
-
         }
 
-
+        static void PrintList(List<string> list)
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                Console.Write(list[i] + ", ");
+            }
+            Console.WriteLine("\n");
+        }
 
 
 
