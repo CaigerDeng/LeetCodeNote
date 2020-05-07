@@ -12,18 +12,15 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1002 so = new Solution_1002();
-            //int[] nums1 = new[] { 1, 2, 0, 0 };
+            Solution_1013 so = new Solution_1013();
+            int[] nums1 = new[] { 6, 1, 1, 13, -1, 0, -10, 20 };
 
             //int[][] arr = new int[5][]; // 5代表有arr[0]，arr[1]，arr[2]，arr[3]，arr[4]
             //arr[0] = new int[] { 1, 2, 3, 4 };
             //arr[1] = new int[] { 3, 4, 5 };
             //Console.WriteLine("{0}, {1}, {2}", arr.Length, arr[0].Length, arr[1].Length); // 输出：5, 4, 3 
 
-            string[] arr = new[] { "cool", "lock", "cook" };
-            List<string> res = (List<string>)so.CommonChars_0(arr);
-
-            PrintList(res);
+            Console.WriteLine(so.CanThreePartsEqualSum_0(nums1));
 
 
 
