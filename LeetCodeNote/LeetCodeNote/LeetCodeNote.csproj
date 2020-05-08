@@ -51,6 +51,7 @@
     <Compile Include="Array\1002_CommonChars.cs" />
     <Compile Include="Array\1010_NumPairsDivisibleBy60.cs" />
     <Compile Include="Array\1013_CanThreePartsEqualSum.cs" />
+    <Compile Include="Array\1018_PrefixesDivBy5.cs" />
     <Compile Include="Array\118_Generate.cs" />
     <Compile Include="Array\088_Merge.cs" />
     <Compile Include="Array\189_Rotate.cs" />
