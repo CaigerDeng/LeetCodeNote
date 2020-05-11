@@ -1,10 +1,10 @@
 ﻿namespace LeetCodeNote.Array
 {
-
     /// <summary>
     /// 35. 搜索插入位置
     /// https://leetcode-cn.com/problems/search-insert-position/
     /// </summary>
+    
     public class Solution_035
     {
         // method 0 (mine)

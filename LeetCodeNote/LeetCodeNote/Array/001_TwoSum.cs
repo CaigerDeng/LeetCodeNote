@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// 1. 两数之和
-/// https://leetcode-cn.com/problems/two-sum/
-/// </summary>
+
 
 namespace LeetCodeNote.Array
 {
+    /// <summary>
+    /// 1. 两数之和
+    /// https://leetcode-cn.com/problems/two-sum/
+    /// </summary>
+
     public class Solution_1
     {
 

@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// 27. 移除元素
-/// https://leetcode-cn.com/problems/remove-element/
-/// </summary>
+
 namespace LeetCodeNote.Array
 {
+    /// <summary>
+    /// 27. 移除元素
+    /// https://leetcode-cn.com/problems/remove-element/
+    /// </summary>
+
     public class Solution_27
     {
         //method 0 

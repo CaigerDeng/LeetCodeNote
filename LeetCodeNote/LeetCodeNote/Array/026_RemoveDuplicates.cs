@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// 26. 删除排序数组中的重复项
-/// https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
-/// </summary>
 namespace LeetCodeNote.Array
 {
+    /// <summary>
+    /// 26. 删除排序数组中的重复项
+    /// https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+    /// </summary>
+     
     public class Solution_26
     {
         //method 0 
