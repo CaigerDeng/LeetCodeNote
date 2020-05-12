@@ -12,16 +12,20 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1013 so = new Solution_1013();
-            int[] nums1 = new[] { 6, 1, 1, 13, -1, 0, -10, 20 };
+            Solution_1122 so = new Solution_1122();
+            // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
+            int[] arr1 = new int[] { 26, 21, 11, 20, 50, 34, 1, 18 };
+            int[] arr2 = new int[] { 21, 11, 26, 20 };
+
 
             //int[][] arr = new int[5][]; // 5代表有arr[0]，arr[1]，arr[2]，arr[3]，arr[4]
             //arr[0] = new int[] { 1, 2, 3, 4 };
             //arr[1] = new int[] { 3, 4, 5 };
             //Console.WriteLine("{0}, {1}, {2}", arr.Length, arr[0].Length, arr[1].Length); // 输出：5, 4, 3 
 
-            Console.WriteLine(so.CanThreePartsEqualSum_0(nums1));
+            PrintArr(so.RelativeSortArray_0(arr1, arr2));
 
+            
 
 
             Console.WriteLine();
