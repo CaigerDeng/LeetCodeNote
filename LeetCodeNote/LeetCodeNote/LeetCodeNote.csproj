@@ -55,6 +55,7 @@
     <Compile Include="Array\1051_HeightChecker.cs" />
     <Compile Include="Array\1089_DuplicateZeros.cs" />
     <Compile Include="Array\1122_RelativeSortArray.cs" />
+    <Compile Include="Array\1128_NumEquivDominoPairs.cs" />
     <Compile Include="Array\118_Generate.cs" />
     <Compile Include="Array\088_Merge.cs" />
     <Compile Include="Array\189_Rotate.cs" />
