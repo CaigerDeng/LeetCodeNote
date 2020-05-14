@@ -12,7 +12,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1128 so = new Solution_1128();
+            Solution_1160 so = new Solution_1160();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             //int[] arr1 = new int[] { 26, 21, 11, 20, 50, 34, 1, 18 };
             //int[] arr2 = new int[] { 21, 11, 26, 20 };
@@ -20,13 +20,16 @@ namespace LeetCodeNote
 
 
 
-            int[][] arr = new int[4][]; 
-            arr[0] = new int[] { 1, 2 };
-            arr[1] = new int[] { 2, 1 };
-            arr[2] = new int[] { 3, 4 };
-            arr[3] = new int[] { 5, 6 };
+            //int[][] arr = new int[4][]; 
+            //arr[0] = new int[] { 1, 2 };
+            //arr[1] = new int[] { 2, 1 };
+            //arr[2] = new int[] { 3, 4 };
+            //arr[3] = new int[] { 5, 6 };
 
-            Console.WriteLine(so.NumEquivDominoPairs_1(arr));
+            string[] words = new[] { "cat", "bt", "hat", "tree" };
+            string chars = "atach";
+
+            Console.WriteLine(so.CountCharacters_0(words, chars));
 
 
 
