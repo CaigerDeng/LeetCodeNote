@@ -57,6 +57,7 @@
     <Compile Include="Array\1122_RelativeSortArray.cs" />
     <Compile Include="Array\1128_NumEquivDominoPairs.cs" />
     <Compile Include="Array\1160_CountCharacters.cs" />
+    <Compile Include="Array\1170_NumSmallerByFrequency.cs" />
     <Compile Include="Array\118_Generate.cs" />
     <Compile Include="Array\088_Merge.cs" />
     <Compile Include="Array\189_Rotate.cs" />

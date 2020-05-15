@@ -12,7 +12,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1160 so = new Solution_1160();
+            Solution_1170 so = new Solution_1170();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             //int[] arr1 = new int[] { 26, 21, 11, 20, 50, 34, 1, 18 };
             //int[] arr2 = new int[] { 21, 11, 26, 20 };
@@ -26,10 +26,11 @@ namespace LeetCodeNote
             //arr[2] = new int[] { 3, 4 };
             //arr[3] = new int[] { 5, 6 };
 
-            string[] words = new[] { "cat", "bt", "hat", "tree" };
-            string chars = "atach";
+            string[] que = new string[] { "bba", "abaaaaaa", "aaaaaa", "bbabbabaab", "aba", "aa", "baab", "bbbbbb", "aab", "bbabbaabb" };
+            string[] word = new string[] { "aaabbb", "aab", "babbab", "babbbb", "b", "bbbbbbbbab", "a", "bbbbbbbbbb", "baaabbaab", "aa" };
 
-            Console.WriteLine(so.CountCharacters_0(words, chars));
+            PrintArr( so.NumSmallerByFrequency_0(que, word));
+
 
 
 
