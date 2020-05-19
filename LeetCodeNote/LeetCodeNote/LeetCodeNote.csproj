@@ -59,6 +59,7 @@
     <Compile Include="Array\1160_CountCharacters.cs" />
     <Compile Include="Array\1170_NumSmallerByFrequency.cs" />
     <Compile Include="Array\1184_DistanceBetweenBusStops.cs" />
+    <Compile Include="Array\1185_DayOfTheWeek.cs" />
     <Compile Include="Array\118_Generate.cs" />
     <Compile Include="Array\088_Merge.cs" />
     <Compile Include="Array\189_Rotate.cs" />
