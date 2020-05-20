@@ -62,6 +62,7 @@
     <Compile Include="Array\1185_DayOfTheWeek.cs" />
     <Compile Include="Array\118_Generate.cs" />
     <Compile Include="Array\088_Merge.cs" />
+    <Compile Include="Array\1200_MinimumAbsDifference.cs" />
     <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Array\217_ContainsDuplicate.cs" />
     <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
