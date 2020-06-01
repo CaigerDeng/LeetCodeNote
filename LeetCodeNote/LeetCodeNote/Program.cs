@@ -12,12 +12,10 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1170 so = new Solution_1170();
+            Solution_1252 so = new Solution_1252();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             //int[] arr1 = new int[] { 26, 21, 11, 20, 50, 34, 1, 18 };
             //int[] arr2 = new int[] { 21, 11, 26, 20 };
-
-
 
 
             //int[][] arr = new int[4][]; 
@@ -26,10 +24,15 @@ namespace LeetCodeNote
             //arr[2] = new int[] { 3, 4 };
             //arr[3] = new int[] { 5, 6 };
 
-            string[] que = new string[] { "bba", "abaaaaaa", "aaaaaa", "bbabbabaab", "aba", "aa", "baab", "bbbbbb", "aab", "bbabbaabb" };
-            string[] word = new string[] { "aaabbb", "aab", "babbab", "babbbb", "b", "bbbbbbbbab", "a", "bbbbbbbbbb", "baaabbaab", "aa" };
+            //string[] que = new string[] { "bba", "abaaaaaa", "aaaaaa", "bbabbabaab", "aba", "aa", "baab", "bbbbbb", "aab", "bbabbaabb" };
+            //string[] word = new string[] { "aaabbb", "aab", "babbab", "babbbb", "b", "bbbbbbbbab", "a", "bbbbbbbbbb", "baaabbaab", "aa" };
 
-            PrintArr( so.NumSmallerByFrequency_0(que, word));
+            int[][] indices = new int[2][];
+            indices[0] = new int[] { 0, 1 };
+            indices[1] = new int[] { 1, 1 };
+
+
+            Console.WriteLine(so.OddCells_0(2, 3, indices));
 
 
 
