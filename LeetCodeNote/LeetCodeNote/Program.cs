@@ -12,7 +12,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1252 so = new Solution_1252();
+            Solution_1260 so = new Solution_1260();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             //int[] arr1 = new int[] { 26, 21, 11, 20, 50, 34, 1, 18 };
             //int[] arr2 = new int[] { 21, 11, 26, 20 };
@@ -27,12 +27,12 @@ namespace LeetCodeNote
             //string[] que = new string[] { "bba", "abaaaaaa", "aaaaaa", "bbabbabaab", "aba", "aa", "baab", "bbbbbb", "aab", "bbabbaabb" };
             //string[] word = new string[] { "aaabbb", "aab", "babbab", "babbbb", "b", "bbbbbbbbab", "a", "bbbbbbbbbb", "baaabbaab", "aa" };
 
-            int[][] indices = new int[2][];
-            indices[0] = new int[] { 0, 1 };
-            indices[1] = new int[] { 1, 1 };
+            int[][] grid = new int[3][];
+            grid[0] = new int[] { 1, 2, 3 };
+            grid[1] = new int[] { 4, 5, 6 };
+            grid[2] = new int[] { 7, 8, 9 };
 
-
-            Console.WriteLine(so.OddCells_0(2, 3, indices));
+            Console.WriteLine(so.ShiftGrid(grid, 1));
 
 
 
