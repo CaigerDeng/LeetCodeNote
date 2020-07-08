@@ -68,6 +68,7 @@
     <Compile Include="Array\1252_OddCells.cs" />
     <Compile Include="Array\1260_ShiftGrid.cs" />
     <Compile Include="Array\1266_MinTimeToVisitAllPoints.cs" />
+    <Compile Include="Array\1275_Tictactoe.cs" />
     <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Array\217_ContainsDuplicate.cs" />
     <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
