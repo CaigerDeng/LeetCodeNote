@@ -7,7 +7,6 @@ namespace LeetCodeNote.Array
     /// https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits/
     /// </summary>
 
-
     public class Solution_1295
     {
         // method 0

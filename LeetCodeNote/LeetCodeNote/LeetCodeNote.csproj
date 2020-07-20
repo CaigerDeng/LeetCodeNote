@@ -71,6 +71,7 @@
     <Compile Include="Array\1275_Tictactoe.cs" />
     <Compile Include="Array\1287_FindSpecialInteger.cs" />
     <Compile Include="Array\1295_FindNumbers.cs" />
+    <Compile Include="Array\1299_ReplaceElements.cs" />
     <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Array\217_ContainsDuplicate.cs" />
     <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
