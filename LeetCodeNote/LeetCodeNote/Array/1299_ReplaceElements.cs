@@ -9,8 +9,7 @@ namespace LeetCodeNote.Array
 
     public class Solution_1299
     {
-        // method 0
-        
+        // method 0        
         public int[] ReplaceElements(int[] arr)
         {
             int n = arr.Length;
