@@ -10,7 +10,7 @@
         // method 0     
         // 我想到的是以从1开始，同时准备对应负数，如-2，-1，1，2，如果数不够就补0
         // 官方给的题解是从0开始，给出前n-1个数，第n个数为前n-1个数的和的负数   
-        public int[] SumZero(int n)
+        public int[] SumZero_0(int n)
         {
             int[] res = new int[n];
             int sum = 0;

@@ -32,7 +32,7 @@ namespace LeetCodeNote
             //            grid[1] = new int[] { 4, 5, 6 };
             //            grid[2] = new int[] { 7, 8, 9 };
 
-            PrintArr(so.SumZero(5));
+            PrintArr(so.SumZero_0(5));
 
             Console.WriteLine( );
 
