@@ -12,7 +12,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1304 so = new Solution_1304();
+            Solution_1331 so = new Solution_1331();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             //            int[] arr1 = new int[] { 26, 21, 11, 20, 50, 34, 1, 18 };
             //int[] arr2 = new int[] { 21, 11, 26, 20 };
@@ -32,7 +32,8 @@ namespace LeetCodeNote
             //            grid[1] = new int[] { 4, 5, 6 };
             //            grid[2] = new int[] { 7, 8, 9 };
 
-            PrintArr(so.SumZero_0(5));
+            int[] arr = new int[] { 37, 12, 28, 9, 100, 56, 80, 5, 12 };
+            PrintArr(so.ArrayRankTransform_0(arr));
 
             Console.WriteLine( );
 
