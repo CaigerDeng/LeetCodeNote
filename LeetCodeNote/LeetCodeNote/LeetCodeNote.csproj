@@ -75,6 +75,7 @@
     <Compile Include="Array\1304_SumZero.cs" />
     <Compile Include="Array\1313_DecompressRLElist.cs" />
     <Compile Include="Array\1331_ArrayRankTransform.cs" />
+    <Compile Include="Array\1337_KWeakestRows.cs" />
     <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Array\217_ContainsDuplicate.cs" />
     <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
