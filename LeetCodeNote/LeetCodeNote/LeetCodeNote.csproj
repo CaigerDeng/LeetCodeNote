@@ -79,6 +79,7 @@
     <Compile Include="Array\1346_CheckIfExist.cs" />
     <Compile Include="Array\1351_CountNegatives.cs" />
     <Compile Include="Array\1365_SmallerNumbersThanCurrent.cs" />
+    <Compile Include="Array\1380_LuckyNumbers.cs" />
     <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Array\217_ContainsDuplicate.cs" />
     <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
