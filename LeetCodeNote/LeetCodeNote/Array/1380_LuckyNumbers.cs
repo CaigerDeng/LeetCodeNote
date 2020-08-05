@@ -12,6 +12,7 @@ namespace LeetCodeNote.Array
     public class Solution_1380
     {
         // method 1
+        // 暴力
         public IList<int> LuckyNumbers_0(int[][] matrix)
         {
             int rows = matrix.Length;

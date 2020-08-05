@@ -12,10 +12,12 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1365 so = new Solution_1365();
+            Solution_1385 so = new Solution_1385();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
-            int[] arr1 = new int[] { 5, 0, 10, 0, 10, 6 };
-            //int[] arr2 = new int[] { 21, 11, 26, 20 };
+            int[] arr1 = new int[] { -3, -3, 4, -1, -10 };
+            int[] arr2 = new int[] { 7, 10 };
+
+
 
 
             //int[][] arr = new int[5][];
@@ -34,7 +36,7 @@ namespace LeetCodeNote
             //            grid[2] = new int[] { 7, 8, 9 };
 
 
-            PrintArr(so.SmallerNumbersThanCurrent_1(arr1));
+            so.FindTheDistanceValue_1(arr1, arr2, 12);
 
             Console.WriteLine();
 
