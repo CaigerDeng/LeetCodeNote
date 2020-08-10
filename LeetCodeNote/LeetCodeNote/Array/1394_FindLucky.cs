@@ -10,7 +10,7 @@ namespace LeetCodeNote.Array
 
     public class Solution_1394
     {
-        // method 1
+        // method 0
         // 直接遍历
         public int FindLucky_0(int[] arr)
         {
