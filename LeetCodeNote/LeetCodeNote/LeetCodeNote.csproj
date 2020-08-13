@@ -86,6 +86,7 @@
     <Compile Include="Array\1399_CountLargestGroup.cs" />
     <Compile Include="Array\1413_MinStartValue.cs" />
     <Compile Include="Array\1431_KidsWithCandies.cs" />
+    <Compile Include="Array\1450_BusyStudent.cs" />
     <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Array\217_ContainsDuplicate.cs" />
     <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
