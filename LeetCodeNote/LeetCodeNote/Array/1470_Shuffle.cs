@@ -22,7 +22,7 @@
         }
 
         // method 1
-        // 空间复杂度 O(1)，使用负数标记
+        // 因为题目要求元素肯定是正数，所以可使用负数标记，空间复杂度 O(1)，
         public int[] Shuffle_1(int[] nums, int n)
         {
             for (int i = 0; i < 2 * n; i++)

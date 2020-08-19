@@ -90,6 +90,7 @@
     <Compile Include="Array\1460_CanBeEqual.cs" />
     <Compile Include="Array\1464_MaxProduct.cs" />
     <Compile Include="Array\1470_Shuffle.cs" />
+    <Compile Include="Array\1475_FinalPrices.cs" />
     <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Array\217_ContainsDuplicate.cs" />
     <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
