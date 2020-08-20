@@ -12,9 +12,9 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1470 so = new Solution_1470();
+            Solution_1480 so = new Solution_1480();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
-            int[] arr1 = new int[] { 2, 5, 1, 3, 4, 7};
+            int[] arr1 = new int[] { 3, 1, 2, 10, 1,};
 //            int[] arr2 = new int[] { 2, 4, 1, 3 };
 
 
@@ -36,7 +36,7 @@ namespace LeetCodeNote
             //            grid[2] = new int[] { 7, 8, 9 };
 
 
-            so.Shuffle_1(arr1, 3);
+            so.RunningSum_0(arr1);
             PrintArr(arr1);
 
 
