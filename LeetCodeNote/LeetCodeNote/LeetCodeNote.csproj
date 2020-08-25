@@ -94,6 +94,7 @@
     <Compile Include="Array\1480_RunningSum.cs" />
     <Compile Include="Array\1486_XorOperation.cs" />
     <Compile Include="Array\1491_Average.cs" />
+    <Compile Include="Array\1502_CanMakeArithmeticProgression.cs" />
     <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Array\217_ContainsDuplicate.cs" />
     <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
