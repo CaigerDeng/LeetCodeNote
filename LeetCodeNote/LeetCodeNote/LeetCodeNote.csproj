@@ -97,6 +97,7 @@
     <Compile Include="Array\1502_CanMakeArithmeticProgression.cs" />
     <Compile Include="Array\1512_NumIdenticalPairs.cs" />
     <Compile Include="Array\1534_CountGoodTriplets.cs" />
+    <Compile Include="Array\1539_FindKthPositive.cs" />
     <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Array\217_ContainsDuplicate.cs" />
     <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
