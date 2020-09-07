@@ -101,6 +101,7 @@
     <Compile Include="Array\1550_ThreeConsecutiveOdds.cs" />
     <Compile Include="Array\1560_MostVisited.cs" />
     <Compile Include="Array\1566_ContainsPattern.cs" />
+    <Compile Include="Array\1572_DiagonalSum.cs" />
     <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Array\217_ContainsDuplicate.cs" />
     <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
