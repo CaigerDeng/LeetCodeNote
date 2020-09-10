@@ -143,6 +143,8 @@
     <Compile Include="Array\Offer03_FindRepeatNumber.cs" />
     <Compile Include="Array\Offer04_FindNumberIn2DArray.cs" />
     <Compile Include="Array\Offer29_SpiralOrder.cs" />
+    <Compile Include="Array\Offer53_MissingNumber.cs" />
+    <Compile Include="Array\Offer53_Search.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

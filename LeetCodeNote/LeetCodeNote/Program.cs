@@ -12,9 +12,9 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1566 so = new Solution_1566();
+            Solution_Offer53 so = new Solution_Offer53();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
-            int[] arr1 = new int[] { 2, 2, 2, 2 };
+            int[] arr1 = new int[] { 5, 6, 9 };
 //            int[] arr2 = new int[] { 2, 4, 1, 3 };
 
 
@@ -36,7 +36,7 @@ namespace LeetCodeNote
             //            grid[2] = new int[] { 7, 8, 9 };
 
 
-            Console.WriteLine(so.ContainsPattern_1(arr1, 2, 3));
+            Console.WriteLine(so.Search_0(arr1, 8));
             
 
 
