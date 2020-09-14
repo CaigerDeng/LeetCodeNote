@@ -6,7 +6,7 @@
     /// </summary>
 
 
-    public class Solution_Face01
+    public class Solution_Face01_01
     {
         // method 0
         // 位运算

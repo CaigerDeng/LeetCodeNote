@@ -140,6 +140,7 @@
     <Compile Include="Array\985_SumEvenAfterQueries.cs" />
     <Compile Include="Array\989_AddToArrayForm.cs" />
     <Compile Include="Array\999_NumRookCaptures.cs" />
+    <Compile Include="Array\Face01_CheckPermutation.cs" />
     <Compile Include="Array\Face01_IsUnique.cs" />
     <Compile Include="Array\Offer03_FindRepeatNumber.cs" />
     <Compile Include="Array\Offer04_FindNumberIn2DArray.cs" />
