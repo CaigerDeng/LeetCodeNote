@@ -142,6 +142,7 @@
     <Compile Include="Array\999_NumRookCaptures.cs" />
     <Compile Include="Array\Face01_CheckPermutation.cs" />
     <Compile Include="Array\Face01_IsUnique.cs" />
+    <Compile Include="Array\Face08_FindMagicIndex.cs" />
     <Compile Include="Array\Offer03_FindRepeatNumber.cs" />
     <Compile Include="Array\Offer04_FindNumberIn2DArray.cs" />
     <Compile Include="Array\Offer29_SpiralOrder.cs" />
