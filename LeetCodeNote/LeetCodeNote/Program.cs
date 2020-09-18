@@ -12,11 +12,13 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_Offer53 so = new Solution_Offer53();
+            Solution_Face16_15 so = new Solution_Face16_15();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             int[] arr1 = new int[] { 5, 6, 9 };
 //            int[] arr2 = new int[] { 2, 4, 1, 3 };
 
+            string solu = "RGRB";
+            string guess = "BBBY";
 
 
 
@@ -36,7 +38,7 @@ namespace LeetCodeNote
             //            grid[2] = new int[] { 7, 8, 9 };
 
 
-            Console.WriteLine(so.Search_0(arr1, 8));
+            Console.WriteLine(so.MasterMind_1(solu, guess));
             
 
 
