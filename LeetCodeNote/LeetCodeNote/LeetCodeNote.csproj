@@ -146,6 +146,7 @@
     <Compile Include="Array\Face10_Merge.cs" />
     <Compile Include="Array\Face16_MasterMind.cs" />
     <Compile Include="Array\Face16_MaxSubArray.cs" />
+    <Compile Include="Array\Face17_MajorityElement.cs" />
     <Compile Include="Array\Face17_MissingNumber.cs" />
     <Compile Include="Array\Offer03_FindRepeatNumber.cs" />
     <Compile Include="Array\Offer04_FindNumberIn2DArray.cs" />
