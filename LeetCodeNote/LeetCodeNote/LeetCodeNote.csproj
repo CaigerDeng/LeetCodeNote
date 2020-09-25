@@ -47,6 +47,7 @@
     <Compile Include="Array\026_RemoveDuplicates.cs" />
     <Compile Include="Array\027_RemoveElement.cs" />
     <Compile Include="Array\035_SearchInsert.cs" />
+    <Compile Include="Array\053_MaxSubArray.cs" />
     <Compile Include="Array\066_PlusOne.cs" />
     <Compile Include="Array\1002_CommonChars.cs" />
     <Compile Include="Array\1010_NumPairsDivisibleBy60.cs" />
