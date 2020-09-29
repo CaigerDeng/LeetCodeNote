@@ -12,20 +12,20 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1582 so = new Solution_1582();
+            Solution_746 so = new Solution_746();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
-            int[] arr1 = new int[] { 5, 6, 9 };
+            int[] arr1 = new int[] { 1, 100, 1, 1, 1, 100, 1, 1, 100, 1 };
 //            int[] arr2 = new int[] { 2, 4, 1, 3 };
 
-            string solu = "RGRB";
-            string guess = "BBBY";
+            //string solu = "RGRB";
+            //string guess = "BBBY";
 
 
 
-            int[][] arr = new int[3][];
-            arr[0] = new int[] { 1, 0, 0 };
-            arr[1] = new int[] { 0, 0, 1 };
-            arr[2] = new int[] { 1, 0, 0 };
+            //int[][] arr = new int[3][];
+            //arr[0] = new int[] { 1, 0, 0 };
+            //arr[1] = new int[] { 0, 0, 1 };
+            //arr[2] = new int[] { 1, 0, 0 };
             //arr[3] = new int[] { -2, -2, -2, -2, -3 };
             //arr[4] = new int[] { -3, -3, -3, -3, -3 };
 
@@ -38,7 +38,7 @@ namespace LeetCodeNote
             //            grid[2] = new int[] { 7, 8, 9 };
 
 
-            Console.WriteLine(so.NumSpecial_0(arr));
+            Console.WriteLine(so.MinCostClimbingStairs_0(arr1));
             
 
 
