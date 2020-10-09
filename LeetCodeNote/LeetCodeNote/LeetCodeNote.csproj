@@ -63,6 +63,7 @@
     <Compile Include="Array\1185_DayOfTheWeek.cs" />
     <Compile Include="Array\118_Generate.cs" />
     <Compile Include="Array\088_Merge.cs" />
+    <Compile Include="Array\119_GetRow.cs" />
     <Compile Include="Array\1200_MinimumAbsDifference.cs" />
     <Compile Include="Array\1217_MinCostToMoveChips.cs" />
     <Compile Include="Array\1232_CheckStraightLine.cs" />

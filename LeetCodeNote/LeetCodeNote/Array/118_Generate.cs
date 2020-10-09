@@ -6,6 +6,7 @@ namespace LeetCodeNote.Array
     /// 118. 杨辉三角
     /// https://leetcode-cn.com/problems/pascals-triangle/
     /// </summary>
+    
     public class Solution_118
     {
         // method 0 
