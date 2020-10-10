@@ -106,6 +106,7 @@
     <Compile Include="Array\1572_DiagonalSum.cs" />
     <Compile Include="Array\1582_NumSpecial.cs" />
     <Compile Include="Array\1588_SumOddLengthSubarrays.cs" />
+    <Compile Include="Array\167_TwoSum.cs" />
     <Compile Include="Array\189_Rotate.cs" />
     <Compile Include="Array\217_ContainsDuplicate.cs" />
     <Compile Include="Array\219_ContainsNearbyDuplicate.cs" />
