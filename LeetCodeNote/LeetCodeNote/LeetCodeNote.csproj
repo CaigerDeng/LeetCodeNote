@@ -66,6 +66,7 @@
     <Compile Include="Array\119_GetRow.cs" />
     <Compile Include="Array\1200_MinimumAbsDifference.cs" />
     <Compile Include="Array\1217_MinCostToMoveChips.cs" />
+    <Compile Include="Array\121_MaxProfit.cs" />
     <Compile Include="Array\1232_CheckStraightLine.cs" />
     <Compile Include="Array\1252_OddCells.cs" />
     <Compile Include="Array\1260_ShiftGrid.cs" />
