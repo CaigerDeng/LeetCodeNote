@@ -15,11 +15,10 @@ namespace LeetCodeNote
             Solution_746 so = new Solution_746();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             int[] arr1 = new int[] { 1, 100, 1, 1, 1, 100, 1, 1, 100, 1 };
-//            int[] arr2 = new int[] { 2, 4, 1, 3 };
+            //            int[] arr2 = new int[] { 2, 4, 1, 3 };
 
             //string solu = "RGRB";
             //string guess = "BBBY";
-
 
 
             //int[][] arr = new int[3][];
