@@ -10,6 +10,31 @@ namespace LeetCodeNote.LinkedList
 
     public class Solution_116
     {
+        // Definition for a Node.
+        public class Node
+        {
+            public int val;
+            public Node left;
+            public Node right;
+            public Node next;
+
+            public Node() { }
+
+            public Node(int _val)
+            {
+                val = _val;
+            }
+
+            public Node(int _val, Node _left, Node _right, Node _next)
+            {
+                val = _val;
+                left = _left;
+                right = _right;
+                next = _next;
+            }
+        }
+
+
 
         // method 0
         // 层次遍历
@@ -76,30 +101,7 @@ namespace LeetCodeNote.LinkedList
 
     }
 
-    // Definition for a Node.
-    public class Node
-    {
-        public int val;
-        public Node left;
-        public Node right;
-        public Node next;
-
-        public Node() { }
-
-        public Node(int _val)
-        {
-            val = _val;
-        }
-
-        public Node(int _val, Node _left, Node _right, Node _next)
-        {
-            val = _val;
-            left = _left;
-            right = _right;
-            next = _next;
-        }
-    }
-
+  
 
 
 

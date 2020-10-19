@@ -5,6 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using LeetCodeNote.Array;
+using LeetCodeNote.LinkedList;
 
 namespace LeetCodeNote
 {
@@ -12,7 +13,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_746 so = new Solution_746();
+            Solution_083 so = new Solution_083();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             int[] arr1 = new int[] { 1, 100, 1, 1, 1, 100, 1, 1, 100, 1 };
             //            int[] arr2 = new int[] { 2, 4, 1, 3 };
@@ -36,9 +37,25 @@ namespace LeetCodeNote
             //            grid[1] = new int[] { 4, 5, 6 };
             //            grid[2] = new int[] { 7, 8, 9 };
 
+            int[] arr = new int[] {1, 1, 2, 3, 3};
+            Solution_083.ListNode head = new Solution_083.ListNode(arr[0]);
+            Solution_083.ListNode node = head;
+            for (int i = 1; i < arr.Length; i++)
+            {
+                node.next = new Solution_083.ListNode(arr[i]);
+                node = node.next;
+            }
+            so.DeleteDuplicates(head);
+            while (head != null)
+            {
+                Console.WriteLine(head.val);
+                head = head.next;
+            }
 
-            Console.WriteLine(so.MinCostClimbingStairs_0(arr1));
-            
+
+            Console.WriteLine();
+
+
 
 
             Console.ReadLine();
