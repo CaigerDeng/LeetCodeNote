@@ -40,7 +40,7 @@ namespace LeetCodeNote.LinkedList
         }
 
         // method 1
-        // 快慢指针
+        // 双指针：快慢指针
         public bool HasCycle_1(ListNode head)
         {
             if (head == null || head.next == null)
