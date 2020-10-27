@@ -167,6 +167,7 @@
     <Compile Include="LinkedList\141_HasCycle.cs" />
     <Compile Include="LinkedList\160_GetIntersectionNode.cs" />
     <Compile Include="LinkedList\203_RemoveElements.cs" />
+    <Compile Include="LinkedList\206_ReverseList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

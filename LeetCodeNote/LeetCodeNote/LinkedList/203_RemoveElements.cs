@@ -18,7 +18,6 @@
         }
 
         // method 0
-        // mine
         public ListNode RemoveElements(ListNode head, int val)
         {
             // 哨兵节点 
