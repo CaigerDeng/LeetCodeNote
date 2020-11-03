@@ -169,6 +169,7 @@
     <Compile Include="LinkedList\203_RemoveElements.cs" />
     <Compile Include="LinkedList\206_ReverseList.cs" />
     <Compile Include="LinkedList\234_IsPalindrome.cs" />
+    <Compile Include="LinkedList\237_DeleteNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
