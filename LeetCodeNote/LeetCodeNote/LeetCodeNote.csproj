@@ -164,6 +164,7 @@
     <Compile Include="LinkedList\021_MergeTwoLists.cs" />
     <Compile Include="LinkedList\083_DeleteDuplicates.cs" />
     <Compile Include="LinkedList\116_Connect.cs" />
+    <Compile Include="LinkedList\1290_GetDecimalValue.cs" />
     <Compile Include="LinkedList\141_HasCycle.cs" />
     <Compile Include="LinkedList\160_GetIntersectionNode.cs" />
     <Compile Include="LinkedList\203_RemoveElements.cs" />
