@@ -172,6 +172,7 @@
     <Compile Include="LinkedList\234_IsPalindrome.cs" />
     <Compile Include="LinkedList\237_DeleteNode.cs" />
     <Compile Include="LinkedList\876_MiddleNode.cs" />
+    <Compile Include="LinkedList\Offer06_ReversePrint.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
