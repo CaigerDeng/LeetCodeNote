@@ -7,7 +7,7 @@
     /// </summary>
 
 
-    public class Solution
+    public class Solution_160
     {
 
         // Definition for singly-linked list.
