@@ -22,7 +22,7 @@
 
         // method 0
         // 双指针
-        public ListNode GetKthFromEnd(ListNode head, int k)
+        public ListNode GetKthFromEnd_0(ListNode head, int k)
         {
             ListNode slow = head;
             ListNode fast = head;
