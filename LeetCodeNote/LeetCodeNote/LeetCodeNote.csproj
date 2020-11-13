@@ -176,6 +176,7 @@
     <Compile Include="LinkedList\Offer18_DeleteNode.cs" />
     <Compile Include="LinkedList\Offer22_GetKthFromEnd.cs" />
     <Compile Include="LinkedList\Offer24_ReverseList.cs" />
+    <Compile Include="LinkedList\Offer52_GetIntersectionNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
