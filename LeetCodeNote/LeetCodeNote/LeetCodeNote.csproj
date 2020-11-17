@@ -172,6 +172,7 @@
     <Compile Include="LinkedList\234_IsPalindrome.cs" />
     <Compile Include="LinkedList\237_DeleteNode.cs" />
     <Compile Include="LinkedList\876_MiddleNode.cs" />
+    <Compile Include="LinkedList\Face02_RemoveDuplicateNodes.cs" />
     <Compile Include="LinkedList\Offer06_ReversePrint.cs" />
     <Compile Include="LinkedList\Offer18_DeleteNode.cs" />
     <Compile Include="LinkedList\Offer22_GetKthFromEnd.cs" />

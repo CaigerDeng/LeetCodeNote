@@ -13,7 +13,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_083 so = new Solution_083();
+            Solution_Face02_01 so = new Solution_Face02_01();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             int[] arr1 = new int[] { 1, 100, 1, 1, 1, 100, 1, 1, 100, 1 };
             //            int[] arr2 = new int[] { 2, 4, 1, 3 };
@@ -37,23 +37,36 @@ namespace LeetCodeNote
             //            grid[1] = new int[] { 4, 5, 6 };
             //            grid[2] = new int[] { 7, 8, 9 };
 
-            int[] arr = new int[] {1, 1, 2, 3, 3};
-            Solution_083.ListNode head = new Solution_083.ListNode(arr[0]);
-            Solution_083.ListNode node = head;
+            int[] arr = new int[] { 1, 2, 3, 3, 2, 1 };
+            Solution_Face02_01.ListNode head = new Solution_Face02_01.ListNode(arr[0]);
+            Solution_Face02_01.ListNode curr = head;
             for (int i = 1; i < arr.Length; i++)
             {
-                node.next = new Solution_083.ListNode(arr[i]);
-                node = node.next;
+                curr.next = new Solution_Face02_01.ListNode(arr[i]);
+                curr = curr.next;
             }
-            so.DeleteDuplicates(head);
-            while (head != null)
+            // print
+            curr = head;
+            while (curr != null)
             {
-                Console.WriteLine(head.val);
-                head = head.next;
+                Console.WriteLine(curr.val);
+                curr = curr.next;
             }
 
 
-            Console.WriteLine();
+            so.RemoveDuplicateNodes_0(head);
+
+            // print
+            Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>> ");
+            curr = head;
+            while (curr != null)
+            {
+                Console.WriteLine(curr.val);
+                curr = curr.next;
+            }
+
+
+            
 
 
 
@@ -90,6 +103,7 @@ namespace LeetCodeNote
 
         }
 
+       
 
     }
 
