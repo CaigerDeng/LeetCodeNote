@@ -1,28 +1,19 @@
 ﻿namespace LeetCodeNote.LinkedList
 {
-    /// <summary>
-    /// 剑指 Offer 18. 删除链表的节点
-    /// https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/
-    /// </summary>
-
-    public class Solution_Offer22
+    public class Solution_Face02_KthToLast
     {
-
         // Definition for singly-linked list.
         public class ListNode
         {
             public int val;
             public ListNode next;
-
-            public ListNode(int x)
-            {
-                val = x;
-            }
+            public ListNode(int x) { val = x; }
         }
 
         // method 0
         // 双指针
-        public ListNode GetKthFromEnd_0(ListNode head, int k)
+        // 参考Offer22_GetKthFromEnd
+        public int KthToLast_0(ListNode head, int k)
         {
             ListNode slow = head;
             ListNode fast = head;
@@ -31,18 +22,16 @@
             {
                 if (i >= k)
                 {
-                    slow = slow.next;                    
+                    slow = slow.next;
                 }
                 fast = fast.next;
                 i++;
             }
-            return slow;
+            return slow.val;
 
         }
 
+
+
     }
-
-
-
-
 }
