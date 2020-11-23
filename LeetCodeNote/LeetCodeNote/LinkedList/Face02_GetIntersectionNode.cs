@@ -1,15 +1,7 @@
 ﻿namespace LeetCodeNote.LinkedList
 {
-
-    /// <summary>
-    /// 160. 相交链表
-    /// https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
-    /// </summary>
-
-
-    public class Solution_160
+    public class Solution_Face02_GetIntersectionNode
     {
-
         // Definition for singly-linked list.
         public class ListNode
         {
@@ -19,8 +11,7 @@
         }
 
         // method 0
-        // 双指针
-        public ListNode GetIntersectionNode_0(ListNode headA, ListNode headB)
+        public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
         {
             if (headA == null || headB == null)
             {
