@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using LeetCodeNote.Array;
 using LeetCodeNote.LinkedList;
+using LeetCodeNote.Stack;
 
 namespace LeetCodeNote
 {
@@ -13,7 +14,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_Face02_01 so = new Solution_Face02_01();
+            Solution_155_MinStack so = new Solution_155_MinStack();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             int[] arr1 = new int[] { 1, 100, 1, 1, 1, 100, 1, 1, 100, 1 };
             //            int[] arr2 = new int[] { 2, 4, 1, 3 };
@@ -37,37 +38,12 @@ namespace LeetCodeNote
             //            grid[1] = new int[] { 4, 5, 6 };
             //            grid[2] = new int[] { 7, 8, 9 };
 
-            int[] arr = new int[] { 1, 2, 3, 3, 2, 1 };
-            Solution_Face02_01.ListNode head = new Solution_Face02_01.ListNode(arr[0]);
-            Solution_Face02_01.ListNode curr = head;
-            for (int i = 1; i < arr.Length; i++)
-            {
-                curr.next = new Solution_Face02_01.ListNode(arr[i]);
-                curr = curr.next;
-            }
-            // print
-            curr = head;
-            while (curr != null)
-            {
-                Console.WriteLine(curr.val);
-                curr = curr.next;
-            }
 
 
-            so.RemoveDuplicateNodes_0(head);
+          
 
-            // print
-            Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>> ");
-            curr = head;
-            while (curr != null)
-            {
-                Console.WriteLine(curr.val);
-                curr = curr.next;
-            }
-
-
-            
-
+            Stack<int> stack = new Stack<int>();
+            Console.WriteLine(stack.Peek()); 
 
 
 
