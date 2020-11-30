@@ -188,6 +188,7 @@
     <Compile Include="Stack\155_MinStack.cs" />
     <Compile Include="Stack\225_MyStack.cs" />
     <Compile Include="Stack\232_MyQueue.cs" />
+    <Compile Include="Stack\496_NextGreaterElement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

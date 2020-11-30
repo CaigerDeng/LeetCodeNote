@@ -14,9 +14,11 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_155_MinStack so = new Solution_155_MinStack();
+            Solution_496 so = new Solution_496();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
-            int[] arr1 = new int[] { 1, 100, 1, 1, 1, 100, 1, 1, 100, 1 };
+            int[] arr1 = new int[] { 4, 1, 2 };
+            int[] arr2 = new int[] { 1, 3, 4, 2 };
+
             //            int[] arr2 = new int[] { 2, 4, 1, 3 };
 
             //string solu = "RGRB";
@@ -39,11 +41,11 @@ namespace LeetCodeNote
             //            grid[2] = new int[] { 7, 8, 9 };
 
 
+            PrintArr(so.NextGreaterElement_0(arr1, arr2));
 
-          
 
-            Stack<int> stack = new Stack<int>();
-            Console.WriteLine(stack.Peek()); 
+
+
 
 
 
@@ -79,7 +81,7 @@ namespace LeetCodeNote
 
         }
 
-       
+
 
     }
 
