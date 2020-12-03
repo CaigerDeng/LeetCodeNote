@@ -190,6 +190,7 @@
     <Compile Include="Stack\232_MyQueue.cs" />
     <Compile Include="Stack\496_NextGreaterElement.cs" />
     <Compile Include="Stack\682_CalPoints.cs" />
+    <Compile Include="Stack\844_BackspaceCompare.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
