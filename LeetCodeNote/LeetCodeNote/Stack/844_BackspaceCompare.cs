@@ -10,7 +10,6 @@ namespace LeetCodeNote.Stack
 
     public class Solution_844
     {
-        // 只是为了拿到字符串中的单个字符，就会占用额外空间，所以C#不可能有空间复杂度O(1)的解法
 
         // method 0
         public bool BackspaceCompare_0(string S, string T)
@@ -22,10 +21,9 @@ namespace LeetCodeNote.Stack
         private string Build(string str)
         {
             StringBuilder sb = new StringBuilder();
-            char[] arr = str.ToCharArray();
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < str.Length; i++)
             {
-                char c = arr[i];
+                char c = str[i];
                 if (c != '#')
                 {
                     sb.Append(c);
@@ -45,10 +43,8 @@ namespace LeetCodeNote.Stack
         // method 1
         public bool BackspaceCompare_1(string S, string T)
         {
-            char[] arrS = S.ToCharArray();
-            char[] arrT = T.ToCharArray();
-            int i = arrS.Length - 1;
-            int j = arrT.Length - 1;
+            int i = S.Length - 1;
+            int j = T.Length - 1;
             int skipS = 0;
             int skipT = 0;
             while (i >= 0 || j >= 0)
@@ -56,7 +52,7 @@ namespace LeetCodeNote.Stack
                 // 处理S
                 while (i >= 0)
                 {
-                    if (arrS[i] == '#')
+                    if (S[i] == '#')
                     {
                         skipS++;
                         i--;
@@ -75,7 +71,7 @@ namespace LeetCodeNote.Stack
                 // 处理T
                 while (j >= 0)
                 {
-                    if (arrT[j] == '#')
+                    if (T[j] == '#')
                     {
                         skipT++;
                         j--;
@@ -93,7 +89,7 @@ namespace LeetCodeNote.Stack
                 }
                 if (i >= 0 && j >= 0)
                 {
-                    if (arrS[i] != arrT[j])
+                    if (S[i] != T[j])
                     {
                         return false;
                     }

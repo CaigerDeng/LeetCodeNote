@@ -14,7 +14,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_682 so = new Solution_682();
+            Solution_1021 so = new Solution_1021();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             int[] arr1 = new int[] { 4, 1, 2 };
             int[] arr2 = new int[] { 1, 3, 4, 2 };
@@ -40,8 +40,9 @@ namespace LeetCodeNote
             //            grid[1] = new int[] { 4, 5, 6 };
             //            grid[2] = new int[] { 7, 8, 9 };
 
-            string[] que = new string[] { "5", "-2", "4", "C", "D", "9", "+", "+" };
-            Console.WriteLine(so.CalPoints_0(que));
+
+            string str = "(()())(())";
+            Console.WriteLine(so.RemoveOuterParentheses_0(str));
 
 
 
