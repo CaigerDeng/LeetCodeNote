@@ -14,7 +14,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1021 so = new Solution_1021();
+            Solution_1047 so = new Solution_1047();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             int[] arr1 = new int[] { 4, 1, 2 };
             int[] arr2 = new int[] { 1, 3, 4, 2 };
@@ -41,8 +41,8 @@ namespace LeetCodeNote
             //            grid[2] = new int[] { 7, 8, 9 };
 
 
-            string str = "(()())(())";
-            Console.WriteLine(so.RemoveOuterParentheses_0(str));
+            string str = "abbaca";
+            Console.WriteLine(so.RemoveDuplicates_0(str));
 
 
 
