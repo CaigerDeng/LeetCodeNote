@@ -14,7 +14,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1047 so = new Solution_1047();
+            Solution_1441 so = new Solution_1441();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             int[] arr1 = new int[] { 4, 1, 2 };
             int[] arr2 = new int[] { 1, 3, 4, 2 };
@@ -40,9 +40,9 @@ namespace LeetCodeNote
             //            grid[1] = new int[] { 4, 5, 6 };
             //            grid[2] = new int[] { 7, 8, 9 };
 
-
-            string str = "abbaca";
-            Console.WriteLine(so.RemoveDuplicates_0(str));
+            int[] arr = new[] {1, 3};
+            int n = 3;
+            Console.WriteLine(so.BuildArray_0(arr, n));
 
 
 
