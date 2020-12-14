@@ -196,6 +196,7 @@
     <Compile Include="Stack\496_NextGreaterElement.cs" />
     <Compile Include="Stack\682_CalPoints.cs" />
     <Compile Include="Stack\844_BackspaceCompare.cs" />
+    <Compile Include="Stack\Face03_MinStack.cs" />
     <Compile Include="Stack\Offer09_CQueue.cs" />
   </ItemGroup>
   <ItemGroup>
