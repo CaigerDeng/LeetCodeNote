@@ -8,13 +8,11 @@ namespace LeetCodeNote.Stack
     /// https://leetcode-cn.com/problems/min-stack/
     /// </summary>
 
-    public class Solution_155_MinStack
+    public class Offer30_MinStack
     {
         // mine
-        // 官方题解用的是两个栈，一个记录数据，一个记录最小值
         public class MinStack
         {
-            /** initialize your data structure here. */
             private List<int> list = null;
             private int min = int.MaxValue;
 
@@ -51,22 +49,16 @@ namespace LeetCodeNote.Stack
                 return list[list.Count - 1];
             }
 
-            public int GetMin()
+            public int Min()
             {
                 return min;
             }
 
         }
 
-        /**
-         * Your MinStack object will be instantiated and called as such:
-         * MinStack obj = new MinStack();
-         * obj.Push(x);
-         * obj.Pop();
-         * int param_3 = obj.Top();
-         * int param_4 = obj.GetMin();
-         */
+
 
 
     }
+
 }
