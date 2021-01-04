@@ -184,6 +184,7 @@
     <Compile Include="LinkedList\Offer52_GetIntersectionNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queue\933_RecentCounter.cs" />
     <Compile Include="Stack\020_IsValid.cs" />
     <Compile Include="Stack\1021_RemoveOuterParentheses.cs" />
     <Compile Include="Stack\1047_RemoveDuplicates.cs" />
