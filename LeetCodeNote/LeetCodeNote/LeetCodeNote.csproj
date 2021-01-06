@@ -161,6 +161,7 @@
     <Compile Include="Array\Offer29_SpiralOrder.cs" />
     <Compile Include="Array\Offer53_MissingNumber.cs" />
     <Compile Include="Array\Offer53_Search.cs" />
+    <Compile Include="HashTable\202_IsHappy.cs" />
     <Compile Include="LinkedList\021_MergeTwoLists.cs" />
     <Compile Include="LinkedList\083_DeleteDuplicates.cs" />
     <Compile Include="LinkedList\116_Connect.cs" />
