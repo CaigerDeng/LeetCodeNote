@@ -15,7 +15,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_204_CountPrimes so = new Solution_204_CountPrimes();
+            Solution_242_IsAnagram so = new Solution_242_IsAnagram();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             int[] arr1 = new int[] { 4, 1, 2 };
             int[] arr2 = new int[] { 1, 3, 4, 2 };
@@ -41,9 +41,9 @@ namespace LeetCodeNote
             //            grid[1] = new int[] { 4, 5, 6 };
             //            grid[2] = new int[] { 7, 8, 9 };
 
-            
 
-            Console.WriteLine(so.CountPrimes_2(499979));
+
+            Console.WriteLine(so.IsAnagram_2("我是D", "D是我"));
 
 
 
