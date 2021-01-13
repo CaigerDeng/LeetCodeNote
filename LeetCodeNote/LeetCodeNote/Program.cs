@@ -15,7 +15,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_242_IsAnagram so = new Solution_242_IsAnagram();
+            Solution_290_WordPattern so = new Solution_290_WordPattern();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             int[] arr1 = new int[] { 4, 1, 2 };
             int[] arr2 = new int[] { 1, 3, 4, 2 };
@@ -43,7 +43,7 @@ namespace LeetCodeNote
 
 
 
-            Console.WriteLine(so.IsAnagram_2("我是D", "D是我"));
+            Console.WriteLine(so.WordPattern_0("abba", "dog cat cat dog"));
 
 
 
