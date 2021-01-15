@@ -15,10 +15,10 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_290_WordPattern so = new Solution_290_WordPattern();
+            Solution_349_Intersection so = new Solution_349_Intersection();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
-            int[] arr1 = new int[] { 4, 1, 2 };
-            int[] arr2 = new int[] { 1, 3, 4, 2 };
+            int[] arr1 = new int[] { 1, 2, 2, 1 };
+            int[] arr2 = new int[] { 2, 2 };
 
             //            int[] arr2 = new int[] { 2, 4, 1, 3 };
 
@@ -43,7 +43,7 @@ namespace LeetCodeNote
 
 
 
-            Console.WriteLine(so.WordPattern_0("abba", "dog cat cat dog"));
+            PrintArr(so.Intersection_2(arr1, arr2));
 
 
 
