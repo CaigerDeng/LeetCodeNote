@@ -167,6 +167,7 @@
     <Compile Include="HashTable\242_IsAnagram.cs" />
     <Compile Include="HashTable\290_WordPattern.cs" />
     <Compile Include="HashTable\349_Intersection.cs" />
+    <Compile Include="HashTable\387_FirstUniqChar.cs" />
     <Compile Include="LinkedList\021_MergeTwoLists.cs" />
     <Compile Include="LinkedList\083_DeleteDuplicates.cs" />
     <Compile Include="LinkedList\116_Connect.cs" />
