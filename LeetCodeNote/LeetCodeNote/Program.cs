@@ -15,10 +15,10 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_349_Intersection so = new Solution_349_Intersection();
+            Solution_350_Intersect so = new Solution_350_Intersect();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
-            int[] arr1 = new int[] { 1, 2, 2, 1 };
-            int[] arr2 = new int[] { 2, 2 };
+            int[] arr1 = new int[] { 4, 9, 5 };
+            int[] arr2 = new int[] { 9, 4, 9, 8, 4 };
 
             //            int[] arr2 = new int[] { 2, 4, 1, 3 };
 
@@ -43,7 +43,7 @@ namespace LeetCodeNote
 
 
 
-            PrintArr(so.Intersection_2(arr1, arr2));
+            PrintArr(so.Intersect_0(arr1, arr2));
 
 
 
