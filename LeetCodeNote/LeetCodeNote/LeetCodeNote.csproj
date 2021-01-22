@@ -169,6 +169,7 @@
     <Compile Include="HashTable\349_Intersection.cs" />
     <Compile Include="HashTable\350_Intersect.cs" />
     <Compile Include="HashTable\387_FirstUniqChar.cs" />
+    <Compile Include="HashTable\389_FindTheDifference.cs" />
     <Compile Include="LinkedList\021_MergeTwoLists.cs" />
     <Compile Include="LinkedList\083_DeleteDuplicates.cs" />
     <Compile Include="LinkedList\116_Connect.cs" />
