@@ -10,6 +10,7 @@ namespace LeetCodeNote.HashTable
 
     public class Solution_409_LongestPalindrome
     {
+        // method 1
         public int LongestPalindrome_0(string s)
         {
             Dictionary<char, int> dic = new Dictionary<char, int>();
