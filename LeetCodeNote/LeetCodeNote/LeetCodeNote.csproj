@@ -172,6 +172,7 @@
     <Compile Include="HashTable\389_FindTheDifference.cs" />
     <Compile Include="HashTable\409_LongestPalindrome.cs" />
     <Compile Include="HashTable\463_IslandPerimeter.cs" />
+    <Compile Include="HashTable\500_FindWords.cs" />
     <Compile Include="LinkedList\021_MergeTwoLists.cs" />
     <Compile Include="LinkedList\083_DeleteDuplicates.cs" />
     <Compile Include="LinkedList\116_Connect.cs" />

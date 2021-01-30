@@ -10,7 +10,7 @@
         private static int[] dx = new[] { 0, 1, 0, -1 };
         private static int[] dy = new[] { 1, 0, -1, 0 };
 
-        // method 1
+        // method 0
         public int IslandPerimeter_0(int[][] grid)
         {
             int res = 0;

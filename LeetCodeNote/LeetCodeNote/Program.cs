@@ -15,9 +15,9 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_350_Intersect so = new Solution_350_Intersect();
+            Solution_500_FindWords so = new Solution_500_FindWords();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
-            int[] arr1 = new int[] { 4, 9, 5 };
+            string[] arr1 = new String[] { "Hello", "Alaska", "Dad", "Peace" };
             int[] arr2 = new int[] { 9, 4, 9, 8, 4 };
 
             //            int[] arr2 = new int[] { 2, 4, 1, 3 };
@@ -43,7 +43,7 @@ namespace LeetCodeNote
 
 
 
-            PrintArr(so.Intersect_0(arr1, arr2));
+            PrintArr(so.FindWords_0(arr1));
 
 
 
@@ -56,8 +56,12 @@ namespace LeetCodeNote
         }
 
 
-        static void PrintArr(int[] arr)
+        static void PrintArr<T>(T[] arr)
         {
+            if (arr == null)
+            {
+                return;
+            }
             for (int i = 0; i < arr.Length; i++)
             {
                 Console.Write(arr[i] + ", ");
