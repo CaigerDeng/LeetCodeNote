@@ -11,6 +11,7 @@ namespace LeetCodeNote.HashTable
     /// 500. 键盘行
     /// https://leetcode-cn.com/problems/keyboard-row/
     /// </summary>
+    
     public class Solution_500_FindWords
     {
 
