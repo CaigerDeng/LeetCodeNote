@@ -15,10 +15,10 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_500_FindWords so = new Solution_500_FindWords();
+            Solution_645_FindErrorNums so = new Solution_645_FindErrorNums();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             string[] arr1 = new String[] { "Hello", "Alaska", "Dad", "Peace" };
-            int[] arr2 = new int[] { 9, 4, 9, 8, 4 };
+            int[] arr2 = new int[] { 2, 2 };
 
             //            int[] arr2 = new int[] { 2, 4, 1, 3 };
 
@@ -43,7 +43,7 @@ namespace LeetCodeNote
 
 
 
-            PrintArr(so.FindWords_0(arr1));
+            PrintArr(so.FindErrorNums_5(arr2));
 
 
 
