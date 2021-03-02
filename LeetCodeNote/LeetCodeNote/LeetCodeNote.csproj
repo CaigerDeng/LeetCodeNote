@@ -177,6 +177,7 @@
     <Compile Include="HashTable\594_FindLHS.cs" />
     <Compile Include="HashTable\599_FindRestaurant.cs" />
     <Compile Include="HashTable\645_FindErrorNums.cs" />
+    <Compile Include="HashTable\690_GetImportance.cs" />
     <Compile Include="LinkedList\021_MergeTwoLists.cs" />
     <Compile Include="LinkedList\083_DeleteDuplicates.cs" />
     <Compile Include="LinkedList\116_Connect.cs" />
