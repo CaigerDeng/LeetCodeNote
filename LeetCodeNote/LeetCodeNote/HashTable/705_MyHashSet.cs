@@ -5,9 +5,15 @@ namespace LeetCodeNote.HashTable
 {
     public class Solution_705_MyHashSet
     {
-        // 单独链表法 
+        /// <summary>
+        /// 705. 设计哈希集合
+        /// https://leetcode-cn.com/problems/design-hashset/
+        /// </summary>
+
+
         public class MyHashSet_0
         {
+
             // 链地址法
             // BASE取质数的解释
             // https://leetcode-cn.com/problems/design-hashset/solution/she-ji-ha-xi-ji-he-by-leetcode-solution-xp4t/829819
@@ -49,15 +55,10 @@ namespace LeetCodeNote.HashTable
             /** Returns true if this set contains the specified element */
             public bool Contains(int key)
             {
-                // C#的枚举器没有hasNext功能，所以要查有无重复key时就得自己写for循环
                 int h = Hash(key);
-                for (int i = 0; i < data[h].Count; i++)
+                if (data[h].Contains(key))
                 {
-                    var item = data[h];
-                    if (item.Contains(key))
-                    {
-                        return true;
-                    }
+                    return true;
                 }
                 return false;
                 

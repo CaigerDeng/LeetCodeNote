@@ -15,7 +15,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_690_GetImportance so = new Solution_690_GetImportance();
+            Solution_706_MyHashMap so = new Solution_706_MyHashMap();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             string[] arr1 = new String[] { "Hello", "Alaska", "Dad", "Peace" };
             int[] arr2 = new int[] { 2, 2 };
@@ -41,21 +41,11 @@ namespace LeetCodeNote
             //            grid[1] = new int[] { 4, 5, 6 };
             //            grid[2] = new int[] { 7, 8, 9 };
 
-            Solution_690_GetImportance.Employee a = new Solution_690_GetImportance.Employee();
-            a.id = 1;
-            a.importance = 2;
-            a.subordinates = new List<int>(){2};
 
-            Solution_690_GetImportance.Employee b = new Solution_690_GetImportance.Employee();
-            b.id = 2;
-            b.importance = 3;
-            b.subordinates = new List<int>() { };
-
-            List<Solution_690_GetImportance.Employee> list = new List<Solution_690_GetImportance.Employee>(){ a, b };
-
-            so.GetImportance(list, 2);
-
-
+            Solution_706_MyHashMap.MyHashMap h = new Solution_706_MyHashMap.MyHashMap();
+            h.Put(1, 1);
+            h.Put(2, 2);
+            Console.WriteLine(h.Get(1)); 
 
 
 
