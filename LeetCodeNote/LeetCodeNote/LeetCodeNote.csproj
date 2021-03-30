@@ -181,6 +181,7 @@
     <Compile Include="HashTable\705_MyHashSet.cs" />
     <Compile Include="HashTable\706_MyHashMap.cs" />
     <Compile Include="HashTable\748_ShortestCompletingWord.cs" />
+    <Compile Include="HashTable\771_NumJewelsInStones.cs" />
     <Compile Include="LinkedList\021_MergeTwoLists.cs" />
     <Compile Include="LinkedList\083_DeleteDuplicates.cs" />
     <Compile Include="LinkedList\116_Connect.cs" />
