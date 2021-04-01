@@ -15,9 +15,9 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_706_MyHashMap so = new Solution_706_MyHashMap();
+            Solution_720_LongestWord so = new Solution_720_LongestWord();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
-            string[] arr1 = new String[] { "Hello", "Alaska", "Dad", "Peace" };
+            string[] arr1 = new String[] { "w", "wo", "wor", "worl", "world" };
             int[] arr2 = new int[] { 2, 2 };
 
             //            int[] arr2 = new int[] { 2, 4, 1, 3 };
@@ -42,10 +42,7 @@ namespace LeetCodeNote
             //            grid[2] = new int[] { 7, 8, 9 };
 
 
-            Solution_706_MyHashMap.MyHashMap h = new Solution_706_MyHashMap.MyHashMap();
-            h.Put(1, 1);
-            h.Put(2, 2);
-            Console.WriteLine(h.Get(1)); 
+            so.LongestWord_1(arr1);
 
 
 
