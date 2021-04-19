@@ -162,6 +162,7 @@
     <Compile Include="Array\Offer53_MissingNumber.cs" />
     <Compile Include="Array\Offer53_Search.cs" />
     <Compile Include="HashTable\1078_FindOcurrences.cs" />
+    <Compile Include="HashTable\1189_MaxNumberOfBalloons.cs" />
     <Compile Include="HashTable\202_IsHappy.cs" />
     <Compile Include="HashTable\204_CountPrimes.cs" />
     <Compile Include="HashTable\205_IsIsomorphic.cs" />

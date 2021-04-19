@@ -15,7 +15,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_720_LongestWord so = new Solution_720_LongestWord();
+            Solution_1189_MaxNumberOfBalloons so = new Solution_1189_MaxNumberOfBalloons();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             string[] arr1 = new String[] { "w", "wo", "wor", "worl", "world" };
             int[] arr2 = new int[] { 2, 2 };
@@ -42,7 +42,7 @@ namespace LeetCodeNote
             //            grid[2] = new int[] { 7, 8, 9 };
 
 
-            so.LongestWord_1(arr1);
+            Console.WriteLine(so.MaxNumberOfBalloons_0("nlaebolko"));
 
 
 
