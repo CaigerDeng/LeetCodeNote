@@ -192,6 +192,7 @@
     <Compile Include="HashTable\884_UncommonFromSentences.cs" />
     <Compile Include="HashTable\953_IsAlienSorted.cs" />
     <Compile Include="HashTable\961_RepeatedNTimes.cs" />
+    <Compile Include="HashTable\Face01_CanPermutePalindrome.cs" />
     <Compile Include="HashTable\Offer50_FirstUniqChar.cs" />
     <Compile Include="LinkedList\021_MergeTwoLists.cs" />
     <Compile Include="LinkedList\083_DeleteDuplicates.cs" />
