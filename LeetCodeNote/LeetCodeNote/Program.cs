@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using LeetCodeNote.Array;
 using LeetCodeNote.HashTable;
+using LeetCodeNote.Heap;
 using LeetCodeNote.LinkedList;
 using LeetCodeNote.Stack;
 
@@ -15,7 +16,7 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_1189_MaxNumberOfBalloons so = new Solution_1189_MaxNumberOfBalloons();
+            Solution_703_KthLargest so = new Solution_703_KthLargest();
             // arr1 = {2,3,1,3,2,4,6,7,9,2,19}
             string[] arr1 = new String[] { "w", "wo", "wor", "worl", "world" };
             int[] arr2 = new int[] { 2, 2 };
@@ -41,12 +42,28 @@ namespace LeetCodeNote
             //            grid[1] = new int[] { 4, 5, 6 };
             //            grid[2] = new int[] { 7, 8, 9 };
 
+                //["KthLargest","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add","add"]
+                //[[7,[-10,1,3,1,4,10,3,9,4,5,1]],[3],[2],[3],[1],[2],[4],[5],[5],[6],[7],[7],[8],[2],[3],[1],[1],[1],[10],[11],[5],[6],[2],[4],[7],[8],[5],[6]]
 
-            Console.WriteLine(so.MaxNumberOfBalloons_0("nlaebolko"));
+            int k = 3;
+            int[] a = new int[] { 4, 5, 8, 2 };//{-10, 1, 3, 1, 4, 10, 3, 9, 4, 5, 1};// {4, 5, 8, 2}; // { 0 }
 
 
 
+            Solution_703_KthLargest.KthLargest_1 kth = new Solution_703_KthLargest.KthLargest_1(k, a);
 
+            //Console.WriteLine(kth.h.GetTop());
+            Console.WriteLine(kth.Add(3));
+            Console.WriteLine(kth.Add(5));
+            Console.WriteLine(kth.Add(10));
+            Console.WriteLine(kth.Add(9));
+            Console.WriteLine(kth.Add(4));
+
+            //Console.WriteLine(kth.Add(-1));
+            //Console.WriteLine(kth.Add(1));
+            //Console.WriteLine(kth.Add(-2));
+            //Console.WriteLine(kth.Add(-4));
+            //Console.WriteLine(kth.Add(3));
 
             Console.ReadLine();
 
