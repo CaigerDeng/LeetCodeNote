@@ -194,6 +194,7 @@
     <Compile Include="HashTable\961_RepeatedNTimes.cs" />
     <Compile Include="HashTable\Face01_CanPermutePalindrome.cs" />
     <Compile Include="HashTable\Offer50_FirstUniqChar.cs" />
+    <Compile Include="Heap\1046_LastStoneWeight.cs" />
     <Compile Include="Heap\703_KthLargest.cs" />
     <Compile Include="LinkedList\021_MergeTwoLists.cs" />
     <Compile Include="LinkedList\083_DeleteDuplicates.cs" />
