@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "L3fpfde0/fS3dyrDu1peAtxJsrHi1RZQLlNJbHIMFeDC+bnDzPdcfRV0ZZ/I4LaQRGZVrNmEIrGKkvy+NdqMCA==",
+  "success": true,
+  "projectFilePath": "E:\\LeetCodeNote\\LeetCodeNote\\LeetCodeNote\\LeetCodeNote.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
