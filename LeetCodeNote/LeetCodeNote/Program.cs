@@ -16,16 +16,13 @@ namespace LeetCodeNote
     {
         static void Main(string[] args)
         {
-            Solution_Offer40_GetLeastNumbers so = new Solution_Offer40_GetLeastNumbers();
 
-            int[] arr = new int[] { 0, 0, 0, 2, 0, 5};
-            int k = 0;
+            Solution_15 so = new Solution_15();
+            so.Run();
 
 
-            so.GetLeastNumbers_1(arr, k);
 
-           
-
+            Console.WriteLine("--------------------end");
             Console.ReadLine();
 
         }
