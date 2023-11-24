@@ -1,4 +1,4 @@
-﻿// deng：2023-11-19-这题重点想考我啥？看上去很像动态规划方面的题。
+﻿// deng：2023-11-19-这题重点想考我啥？看上去很像动态规划方面的题。——> 有点动态规划的意思。
 
 using System;
 using System.Collections.Generic;

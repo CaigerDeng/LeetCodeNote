@@ -17,7 +17,7 @@ namespace LeetCodeNote
         static void Main(string[] args)
         {
 
-            Solution_15 so = new Solution_15();
+            Solution_41 so = new Solution_41();
             so.Run();
 
 

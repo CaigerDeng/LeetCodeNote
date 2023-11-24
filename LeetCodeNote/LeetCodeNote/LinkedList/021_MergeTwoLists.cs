@@ -21,27 +21,39 @@
 
 
         // method 1
-        public ListNode MergeTwoLists_1(ListNode l1, ListNode l2)
+        // 迭代
+        // 这里特别在于它的空间复杂度O(1)，因为是直接在原链表上改的
+        // 时间复杂度O(n)，空间复杂度O(1)
+        public ListNode MergeTwoLists_1(ListNode a, ListNode b)
         {
-            ListNode prehead = new ListNode(-1);
-            ListNode prev = prehead;
-            while (l1 != null && l2 != null)
+            if (a == null || b == null)
             {
-                if (l1.val <= l2.val)
+                return a ?? b;
+            }
+            // 哨兵节点head，不参与业务逻辑
+            ListNode head = new ListNode(-1);
+            ListNode node = head;
+            while (a != null && b != null)
+            {
+                if (a.val <= b.val)
                 {
-                    prev.next = l1;
-                    l1 = l1.next;
+                    node.next = a;
+                    // a请进
+                    a = a.next;
                 }
                 else
                 {
-                    prev.next = l2;
-                    l2 = l2.next;
+                    node.next = b;
+                    // b请进
+                    b = b.next;
                 }
-                prev = prev.next;
-            }        
-            prev.next = l1 ?? l2;
-            // 返回的是真正的第一个节点，而不是返回哨兵节点
-            return prehead.next;
+                // node自己前进
+                node = node.next;
+            }
+            // 考虑a或b还没走完的情况
+            node.next = a ?? b;
+            // 返回第一个业务逻辑节点
+            return head.next;
 
         }
 
