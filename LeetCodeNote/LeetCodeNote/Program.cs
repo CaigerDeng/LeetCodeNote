@@ -17,8 +17,8 @@ namespace LeetCodeNote
         static void Main(string[] args)
         {
 
-            Solution_41 so = new Solution_41();
-            so.Run();
+            TestMisc a = new TestMisc();
+            a.Run();
 
 
 
@@ -28,7 +28,7 @@ namespace LeetCodeNote
         }
 
 
-        static void PrintArr<T>(T[] arr)
+        public static void PrintArr<T>(T[] arr)
         {
             if (arr == null)
             {
