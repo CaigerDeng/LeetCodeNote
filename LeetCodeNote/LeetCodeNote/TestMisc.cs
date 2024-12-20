@@ -11,39 +11,24 @@ namespace LeetCodeNote
     {
         public void Run()
         {
-            int[] nums = { 2, 2, 1, 1, 1, 2, 2 };
+            int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
+
+            // 反转数组索引 2 开始的 4 个元素
+            System.Array.Reverse(nums, 2, 4);
+
+            // 输出结果
+            Console.WriteLine(string.Join(", ", nums));
 
 
 
 
-    
+
 
 
         }
 
-        private void QuickSort(int[] nums)
-        {
-            QuickSortDetail(nums, 0, nums.Length - 1);
-
-        }
-
-        private void QuickSortDetail(int[] nums, int left, int right)
-        {
-            if (left >= right)
-            {
-                return;
-            }
-            int pivotIndex = Part(nums, left, right);
-            QuickSortDetail(nums, 0, pivotIndex - 1);
-            QuickSortDetail(nums, pivotIndex + 1, right);
-            
-        }
-
-        private int Part(int[] nums, int left, int right)
-        {
-
-
-        }
+       
+       
 
 
     }
