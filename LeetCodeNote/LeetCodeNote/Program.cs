@@ -17,7 +17,7 @@ namespace LeetCodeNote
         static void Main(string[] args)
         {
 
-            TestMisc a = new TestMisc();
+            Solution_55 a = new Solution_55();
             a.Run();
 
 
