@@ -12,12 +12,12 @@ using LeetCodeNote.Stack;
 
 namespace LeetCodeNote
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
 
-            Solution_55 a = new Solution_55();
+            Solution_274 a = new Solution_274();
             a.Run();
 
 
