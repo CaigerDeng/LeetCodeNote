@@ -16,6 +16,11 @@ namespace LeetCodeNote.Array
     public class Solution_1
     {
 
+        public void Run()
+        {
+           
+        }
+
         // method 0
         public int[] TwoSum_0(int[] nums, int target)
         {

@@ -9,6 +9,8 @@ namespace LeetCodeNote.Array
     /// <summary>
     /// 135. 分发糖果
     /// https://leetcode.cn/problems/candy/description/?envType=study-plan-v2&amp;envId=top-interview-150
+    /// 要求准备糖果尽可能少，且“相邻两个孩子评分更高的孩子会获得更多的糖果”，意味着如果当前评分高孩子已经比评分低孩子的糖果多，则不用再给评分高孩子糖果；
+    /// 在给评分高孩子糖果时要注意他前一个孩子是不是评分更高，如果是，则前一个孩子还需要多给糖果。
     /// </summary>
 
 
