@@ -11,18 +11,13 @@ namespace LeetCodeNote
     {
         public void Run()
         {
-            int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
+           
 
-            // 反转数组索引 2 开始的 4 个元素
-            System.Array.Reverse(nums, 2, 4);
+            StringBuilder sb = new StringBuilder("ab");
+            //sb.Remove(0, 1);
+            sb.Remove(1, 1);
 
-            // 输出结果
-            Console.WriteLine(string.Join(", ", nums));
-
-
-
-
-
+            Console.WriteLine(sb.ToString());
 
 
         }
