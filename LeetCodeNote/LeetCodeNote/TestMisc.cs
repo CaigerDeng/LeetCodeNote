@@ -11,19 +11,27 @@ namespace LeetCodeNote
     {
         public void Run()
         {
-           
+            string[] strs = { "dog", "racecar", "car" };
 
-            StringBuilder sb = new StringBuilder("ab");
-            //sb.Remove(0, 1);
-            sb.Remove(1, 1);
+            string res = strs.Min();
 
-            Console.WriteLine(sb.ToString());
+
+            Console.WriteLine("res:{0}", res);
 
 
         }
 
-       
-       
+        public void Reverse(StringBuilder sb, int left, int right)
+        {
+            while (left < right) // 当left==right时，反转无意义，所以可以不写等于
+            {
+                (sb[left], sb[right]) = (sb[right], sb[left]);
+                left++;
+                right--;
+            }
+
+        }
+
 
 
     }

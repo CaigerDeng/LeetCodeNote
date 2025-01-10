@@ -121,8 +121,9 @@ namespace LeetCodeNote.Array
                 }
                 if (times >= mid) // 如果总次数都比中值，显然中值还可以更大
                 {
-                    // 因为要返回结果是left，而这个while循环要求left<right，即结束循环时，left的值要正确
-                    // 不然按照二分法来写，left应该等于mid+1才是。
+                    // 因为要返回结果是left，即结束循环时，left的值要正确，所以left要走的慢一点。
+                    // 不然按照二分法习惯来写，left应该等于mid+1才是。
+                    // 同样，因为left被赋值为mid，为了防止死循环（比如：citations=[1]这种情况），算mid公式有要加1。
                     left = mid; 
                 }
                 else

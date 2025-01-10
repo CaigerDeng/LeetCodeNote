@@ -44,7 +44,7 @@ namespace LeetCodeNote
             Console.WriteLine("\n");
         }
 
-        static void PrintList(List<string> list)
+        public static void PrintList(List<string> list)
         {
             for (int i = 0; i < list.Count; i++)
             {
@@ -53,15 +53,7 @@ namespace LeetCodeNote
             Console.WriteLine("\n");
         }
 
-        static void TestStaggeredArray()
-        {
-            int[][] arr = new int[5][]; // 5代表有arr[0]，arr[1]，arr[2]，arr[3]，arr[4]
-            arr[0] = new int[] { 1, 2, 3, 4 };
-            arr[1] = new int[] { 3, 4, 5 };
-            Console.WriteLine("{0}, {1}, {2}", arr.Length, arr[0].Length, arr[1].Length); // 输出：5, 4, 3 
-
-        }
-
+       
 
 
     }
