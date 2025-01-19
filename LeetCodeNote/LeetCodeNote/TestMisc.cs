@@ -11,12 +11,25 @@ namespace LeetCodeNote
     {
         public void Run()
         {
-            string[] strs = { "dog", "racecar", "car" };
+            string needle = "aaa";
+            int[] pi = new int[needle.Length];
+            for (int i = 1, j = 0; i < needle.Length; i++)
+            {
+                while (j > 0 && needle[i] != needle[j])
+                {
+                    // j退回到上一个匹配索引，最多退回到起点
+                    j = pi[j - 1];
+                }
 
-            string res = strs.Min();
+                if (needle[i] == needle[j])
+                {
+                    j++;
+                }
+                pi[i] = j;
+            }
 
 
-            Console.WriteLine("res:{0}", res);
+            Console.WriteLine("res:{0}", 0);
 
 
         }
