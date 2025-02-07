@@ -18,11 +18,13 @@ namespace LeetCodeNote.Array
 
         public void Run()
         {
-           
+
         }
 
-        // method 0
-        public int[] TwoSum_0(int[] nums, int target)
+        // 我的题解0
+        // 打头双指针的暴力查找
+        // 时间复杂度：O(N*N)，空间复杂度：O(1)
+        public int[] TwoSum_My_0(int[] nums, int target)
         {
             for (int i = 0; i < nums.Length; i++)
             {
@@ -35,52 +37,35 @@ namespace LeetCodeNote.Array
                 }
             }
             return null;
+
         }
 
-        //method 1 
-        public int[] TwoSum_1(int[] nums, int target)
-        {
-            Dictionary<int, int> dic = new Dictionary<int, int>();
-            for (int i = 0; i < nums.Length; i++)
-            {
-                int key = nums[i];
-                if (!dic.ContainsKey(key))
-                {
-                    dic.Add(key, i);
-                }
-                dic[key] = i;
-            }
-            for (int i = 0; i < nums.Length; i++)
-            {
-                int left = target - nums[i];
-                if (dic.ContainsKey(left) && dic[left] != i)
-                {
-                    return new[] { i, dic[left] };
-                }
-            }
-            return null;
-        }
+        // method 1-官方题解1
+        // 和“我的题解0”一模一样，此处略过
+        // //////////////////////////////////////////
 
-        //method 2 
+        // method 2-官方题解2
+        // 哈希表来优化查找
+        // 时间复杂度：O(N)，空间复杂度：O(N)（指哈希表开销）
         public int[] TwoSum_2(int[] nums, int target)
         {
+            // <值，索引>词典
             Dictionary<int, int> dic = new Dictionary<int, int>();
             for (int i = 0; i < nums.Length; i++)
             {
-                int key = nums[i];
-                int left = target - key;
-                // can remove '&& dic[left] != i'
-                if (dic.ContainsKey(left))
+                int a = nums[i];
+                int b = target - a;
+                // 必须先写这个判断，因为重复元素不符题意，
+                // 比如：nums为[3,2,4]，如果把这个判断滞后，那拿到的结果就会是[0,0]
+                if (dic.ContainsKey(b))
                 {
-                    return new[] { i, dic[left] };
+                    return new[] { i, dic[b] };
                 }
-                if (!dic.ContainsKey(key))
-                {
-                    dic.Add(key, i);
-                }
-                dic[key] = i;
-            }           
+                dic.TryAdd(a, i);
+                dic[a] = i;
+            }
             return null;
+
         }
 
     }
