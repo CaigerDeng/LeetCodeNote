@@ -20,7 +20,7 @@ namespace LeetCodeNote
             //TestMisc t = new TestMisc();
             //t.Run();
 
-            Solution_15 a = new Solution_15();
+            Solution_30 a = new Solution_30();
             a.Run();
 
 
@@ -44,7 +44,7 @@ namespace LeetCodeNote
             Console.WriteLine("\n");
         }
 
-        public static void PrintList(List<string> list)
+        public static void PrintList<T>(List<T> list)
         {
             for (int i = 0; i < list.Count; i++)
             {

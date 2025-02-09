@@ -12,7 +12,6 @@ namespace LeetCodeNote.Array
     /// 1. 两数之和
     /// https://leetcode-cn.com/problems/two-sum/
     /// </summary>
-
     public class Solution_1
     {
 
@@ -21,7 +20,7 @@ namespace LeetCodeNote.Array
 
         }
 
-        // 我的题解0
+        // (2025/2/8) method My 0-我的题解0
         // 打头双指针的暴力查找
         // 时间复杂度：O(N*N)，空间复杂度：O(1)
         public int[] TwoSum_My_0(int[] nums, int target)
