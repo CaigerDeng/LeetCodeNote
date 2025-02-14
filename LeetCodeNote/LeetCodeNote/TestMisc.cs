@@ -12,114 +12,151 @@ namespace LeetCodeNote
     {
         public void Run()
         {
-            string[] words = { "abc", "def", "ghi" };
-            foreach (var substring in GetConcatenatedSubstrings(words))
-            {
-                Console.WriteLine(substring);
-            }
+          
+            string s = "dog cat cat fish";
+            string[] wordArr = s.Split(' ');
+            Console.WriteLine("wordArr.Length :{0}", wordArr.Length);
+            Program.PrintArr(wordArr);
 
-
-            //Console.WriteLine("res :{0}", bound);
-
-        }
-
-        public void Reverse(StringBuilder sb, int left, int right)
-        {
-            while (left < right) // 当left==right时，反转无意义，所以可以不写等于
-            {
-                (sb[left], sb[right]) = (sb[right], sb[left]);
-                left++;
-                right--;
-            }
-
-        }
-
-        private int LowerBound_0(int[] arr, int left, int right, int target)
-        {
-            while (left < right)
-            {
-                int mid = left + (right - left) / 2;
-                if (arr[mid] < target)
-                {
-                    left = mid + 1;
-                }
-                else
-                {
-                    // 不能漏掉mid，所以写成right = mid，而不是写成right = mid-1;
-                    right = mid;
-                }
-            }
-            // 这里做了判断，如果arr的所有元素都比target小，返回-1，代表无意义（仅仅针对本题，本题认为不越界的left才是有意义的left）。
-            // 一般API会直接返回left。
-            return (arr[left] >= target) ? left : -1;
 
         }
 
 
-        // 求在数组arr中，第一个大于等于target的值的索引
-        // 闭区间
-        // 这是我熟悉的写法
-        private int LowerBound_1(int[] arr, int target)
+
+        public void SetZeroes(int[][] matrix)
         {
-            int left = 0;
-            int right = arr.Length - 1;
-            int index = arr.Length;
-            while (left <= right)
+            int m = matrix.Length, n = matrix[0].Length;
+            bool flagCol0 = false, flagRow0 = false;
+            for (int i = 0; i < m; i++)
             {
-                int mid = left + (right - left) / 2;
-                if (arr[mid] >= target)
+                if (matrix[i][0] == 0)
                 {
-                    index = mid;
-                    right = mid - 1;
-                }
-                else
-                {
-                    left = mid + 1;
+                    flagCol0 = true;
                 }
             }
-            return index;
-
-        }
-
-        private int LowerBound(int[] a, int l, int r, int target)
-        {
-            int mid = -1, originL = l, originR = r;
-            while (l < r)
+            for (int j = 0; j < n; j++)
             {
-                mid = (l + r) >> 1;
-                if (a[mid] < target) l = mid + 1;
-                else r = mid;
+                if (matrix[0][j] == 0)
+                {
+                    flagRow0 = true;
+                }
             }
 
-            return (a[l] >= target) ? l : -1;
-        }
-
-        static IEnumerable<string> GetConcatenatedSubstrings(string[] words)
-        {
-            Queue<(string, HashSet<int>)> queue = new Queue<(string, HashSet<int>)>();
-            queue.Enqueue(("", new HashSet<int>()));  // 初始空字符串和空索引集合
-
-            while (queue.Count > 0)
+            Console.WriteLine("1:");
+            for (int i = 1; i < m; i++)
             {
-                var (current, used) = queue.Dequeue();
-                if (used.Count == words.Length)
+                for (int j = 1; j < n; j++)
                 {
-                    yield return current;
-                    continue;
-                }
-
-                for (int i = 0; i < words.Length; i++)
-                {
-                    if (!used.Contains(i))
+                    if (matrix[i][j] == 0)
                     {
-                        var newUsed = new HashSet<int>(used) { i };
-                        queue.Enqueue((current + words[i], newUsed));
+                        matrix[i][0] = matrix[0][j] = 0;
                     }
                 }
             }
+            Program.PrintMatrix(matrix);
+
+            Console.WriteLine("2:");
+            for (int i = 1; i < m; i++)
+            {
+                for (int j = 1; j < n; j++)
+                {
+                    if (matrix[i][0] == 0 || matrix[0][j] == 0)
+                    {
+                        matrix[i][j] = 0;
+                    }
+                }
+            }
+            Program.PrintMatrix(matrix);
+
+            if (flagCol0)
+            {
+                Console.WriteLine("3:");
+                for (int i = 0; i < m; i++)
+                {
+                    matrix[i][0] = 0;
+                }
+                Program.PrintMatrix(matrix);
+            }
+
+            if (flagRow0)
+            {
+                Console.WriteLine("4:");
+                for (int j = 0; j < n; j++)
+                {
+                    matrix[0][j] = 0;
+                }
+                Program.PrintMatrix(matrix);
+            }
+
+            Console.WriteLine("999:");
+            Program.PrintMatrix(matrix);
+
         }
 
+        void gameOfLife(int[][] board)
+        {
+            int[] neighbors = new int[3]{ 0, 1, -1 };
 
+            int rows = board.Length;
+            int cols = board[0].Length;
+
+            // 创建复制数组 copyBoard
+            int[][] copyBoard = new int[rows][];
+
+            // 从原数组复制一份到 copyBoard 中
+            for (int row = 0; row < rows; row++)
+            {
+                copyBoard[row] = new int[cols];
+                for (int col = 0; col < cols; col++)
+                {
+                    copyBoard[row][col] = board[row][col];
+                }
+            }
+
+            // 遍历面板每一个格子里的细胞
+            for (int row = 0; row < rows; row++)
+            {
+                for (int col = 0; col < cols; col++)
+                {
+
+                    // 对于每一个细胞统计其八个相邻位置里的活细胞数量
+                    int liveNeighbors = 0;
+
+                    for (int i = 0; i < 3; i++)
+                    {
+                        for (int j = 0; j < 3; j++)
+                        {
+
+                            if (!(neighbors[i] == 0 && neighbors[j] == 0))
+                            {
+                                int r = (row + neighbors[i]);
+                                int c = (col + neighbors[j]);
+
+                                // 查看相邻的细胞是否是活细胞
+                                if ((r < rows && r >= 0) && (c < cols && c >= 0) && (copyBoard[r][c] == 1))
+                                {
+                                    liveNeighbors += 1;
+                                }
+                            }
+                        }
+                    }
+
+                    // 规则 1 或规则 3      
+                    if ((copyBoard[row][col] == 1) && (liveNeighbors < 2 || liveNeighbors > 3))
+                    {
+                        board[row][col] = 0;
+                    }
+                    // 规则 4
+                    if (copyBoard[row][col] == 0 && liveNeighbors == 3)
+                    {
+                        board[row][col] = 1;
+                    }
+                }
+            }
+
+        }
+
+     
 
     }
 

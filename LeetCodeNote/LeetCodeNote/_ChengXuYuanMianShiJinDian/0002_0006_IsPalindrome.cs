@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCodeNote.LinkedList
+namespace LeetCodeNote._ChengXuYuanMianShiJinDian
 {
     /// <summary>
     /// 面试题 02.06. 回文链表
     /// https://leetcode-cn.com/problems/palindrome-linked-list-lcci/
     /// </summary>
-
-
-    class Face02_IsPalindrome
+    public class Solution_CYX_02_06
     {
         //Definition for singly-linked list.
         public class ListNode
@@ -26,7 +24,7 @@ namespace LeetCodeNote.LinkedList
         // 同Solution_234 method 2
         public bool IsPalindrome_0(ListNode head)
         {
-            if(head == null)
+            if (head == null)
             {
                 return true;
             }

@@ -1,15 +1,13 @@
 ﻿using System.Collections.Generic;
 
-namespace LeetCodeNote.Stack
+namespace LeetCodeNote._ChengXuYuanMianShiJinDian
 {
-    public class Face03_MyQueue
+    /// <summary>
+    /// 面试题 03.04. 化栈为队
+    /// https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci/
+    /// </summary>
+    public class Solution_CYX_03_04
     {
-
-        /// <summary>
-        /// 面试题 03.04. 化栈为队
-        /// https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci/
-        /// </summary>
-
         public class MyQueue
         {
             private Stack<int> stack0;
@@ -68,14 +66,6 @@ namespace LeetCodeNote.Stack
             }
         }
 
-        /**
-         * Your MyQueue object will be instantiated and called as such:
-         * MyQueue obj = new MyQueue();
-         * obj.Push(x);
-         * int param_2 = obj.Pop();
-         * int param_3 = obj.Peek();
-         * bool param_4 = obj.Empty();
-         */
 
     }
 }

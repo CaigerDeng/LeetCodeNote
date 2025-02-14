@@ -1,11 +1,13 @@
-﻿namespace LeetCodeNote.LinkedList
+﻿
+
+
+namespace LeetCodeNote._ChengXuYuanMianShiJinDian
 {
     /// <summary>
     /// 面试题 02.03. 删除中间节点
     /// https://leetcode-cn.com/problems/delete-middle-node-lcci/
     /// </summary>
-
-    public class Solution_Face02_DeleteNode
+    public class Solution_CYX_02_03
     {
         // Definition for singly-linked list.
         public class ListNode

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace LeetCodeNote.Stack
+namespace LeetCodeNote._ChengXuYuanMianShiJinDian
 {
     /// <summary>
     /// 面试题 03.02. 栈的最小值
@@ -9,7 +9,7 @@ namespace LeetCodeNote.Stack
     /// </summary>
 
 
-    public class Face03_MinStack
+    public class Solution_CYX_03_02
     {
         public class MinStack
         {
