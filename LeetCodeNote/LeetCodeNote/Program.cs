@@ -20,7 +20,7 @@ namespace LeetCodeNote
             //TestMisc t = new TestMisc();
             //t.Run();
 
-            Solution_242 a = new Solution_242();
+            Solution_49 a = new Solution_49();
             a.Run();
 
 

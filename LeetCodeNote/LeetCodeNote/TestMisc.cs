@@ -12,11 +12,18 @@ namespace LeetCodeNote
     {
         public void Run()
         {
-          
-            string s = "dog cat cat fish";
-            string[] wordArr = s.Split(' ');
-            Console.WriteLine("wordArr.Length :{0}", wordArr.Length);
-            Program.PrintArr(wordArr);
+
+            Dictionary<char, int> dic = new Dictionary<char, int>();
+            dic.Add('d', 2);
+            dic.Add('c', 66);
+            dic.Add('a', 5);
+            dic = dic.OrderBy(kv => kv.Key).ToDictionary(pair => pair.Key, pair => pair.Value);
+
+            foreach (KeyValuePair<char, int> pair in dic)
+            {
+                Console.WriteLine("{0}:{1}", pair.Key, pair.Value);
+            }
+
 
 
         }
@@ -95,7 +102,7 @@ namespace LeetCodeNote
 
         void gameOfLife(int[][] board)
         {
-            int[] neighbors = new int[3]{ 0, 1, -1 };
+            int[] neighbors = new int[3] { 0, 1, -1 };
 
             int rows = board.Length;
             int cols = board[0].Length;
@@ -156,7 +163,7 @@ namespace LeetCodeNote
 
         }
 
-     
+
 
     }
 
