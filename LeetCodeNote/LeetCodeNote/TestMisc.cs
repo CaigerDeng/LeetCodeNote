@@ -13,13 +13,9 @@ namespace LeetCodeNote
         public void Run()
         {
 
-            Dictionary<char, int> dic = new Dictionary<char, int>();
-            dic.Add('d', 2);
-            dic.Add('c', 66);
-            dic.Add('a', 5);
-            dic = dic.OrderBy(kv => kv.Key).ToDictionary(pair => pair.Key, pair => pair.Value);
-
-            foreach (KeyValuePair<char, int> pair in dic)
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            dic[2] = 5;
+            foreach (KeyValuePair<int, int> pair in dic)
             {
                 Console.WriteLine("{0}:{1}", pair.Key, pair.Value);
             }

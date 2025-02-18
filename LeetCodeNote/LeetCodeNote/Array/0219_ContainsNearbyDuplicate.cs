@@ -5,71 +5,102 @@ namespace LeetCodeNote.Array
 {
     /// <summary>
     /// 219. 存在重复元素 II
-    /// https://leetcode-cn.com/problems/contains-duplicate-ii/
+    /// https://leetcode.cn/problems/contains-duplicate-ii/description/?envType=study-plan-v2&amp;envId=top-interview-150
     /// </summary>
-    public class Solution_219_
+    public class Solution_219
     {
-        // method 0 
-        // 滑窗算法（什么是滑窗：https://www.zhihu.com/question/314669016）
-        // 超出时间限制
-        public bool ContainsNearbyDuplicate_0(int[] nums, int k)
+
+        public void Run()
         {
+            //int[] nums = new[] { 1, 2, 3, 1 };
+            //int k = 3;// res:true
+
+            //int[] nums = new[] { 1, 0, 1, 1 };
+            //int k = 1; // res:true
+
+            int[] nums = new[] { 1, 2, 3, 1, 2, 3 };
+            int k = 2; // res:false
+
+            bool res = ContainsNearbyDuplicate_My_0(nums, k);
+            Console.WriteLine("res:{0}", res);
+
+        }
+
+
+        // (2025/2/17) method My 0-我的题解0
+        // 在遍历数组时，利用哈希表判断重复
+        // 时间复杂度：O(N)，空间复杂度：O(N)
+        public bool ContainsNearbyDuplicate_My_0(int[] nums, int k)
+        {
+            // <数组元素, 对应索引列表> 可能会有重复元素，所以要用列表
+            Dictionary<int, List<int>> dic = new Dictionary<int, List<int>>();
             for (int i = 0; i < nums.Length; i++)
             {
-                for (int j = Math.Max(0, i - k); j < i; j++)
+                if (dic.ContainsKey(nums[i]))
                 {
-                    if (nums[i] == nums[j])
+                    List<int> list = dic[nums[i]];
+                    for (int j = 0; j < list.Count; j++)
                     {
-                        return true;
+                        if (Math.Abs(list[j] - i) <= k)
+                        {
+                            return true;
+                        }
                     }
+                    list.Add(i);
+                }
+                else
+                {
+                    List<int> list = new List<int>();
+                    list.Add(i);
+                    dic.Add(nums[i], list);
                 }
             }
             return false;
+
         }
 
-        // method 1
-        // SortedSet是用红黑树实现的
-        // 依然是滑窗算法，但用SortedSet优化了method 0的查找速度
-        // 超出时间限制
+        // method 1-官方题解1
+        // 哈希表，但思路和“我的题解0”不太一样，官方的哈希表记录的是该数组元素的最大索引
+        // 时间复杂度：O(N)，空间复杂度：O(N)
         public bool ContainsNearbyDuplicate_1(int[] nums, int k)
         {
-            SortedSet<int> set = new SortedSet<int>();
+            // <数组元素, 该数组元素的最大索引> 
+            Dictionary<int, int> dic = new Dictionary<int, int>();
             for (int i = 0; i < nums.Length; i++)
             {
-                int val = nums[i];
-                if (set.Contains(val))
+                int num = nums[i];
+                if (dic.ContainsKey(num) && i - dic[num] <= k)
                 {
                     return true;
                 }
-                set.Add(val);
-                if (set.Count > k)
-                {
-                    set.Remove(nums[i - k]);
-                }
+                dic[num] = i;
             }
             return false;
+
         }
 
-        // method 2
-        // 散列表 dic
-        // method 1的优化，将搜索速度提升
+        // method 2-官方题解2
+        // 滑动窗口
+        // 时间复杂度：O(N)，空间复杂度：O(k)
         public bool ContainsNearbyDuplicate_2(int[] nums, int k)
         {
-            HashSet<int> set = new HashSet<int>();
+            HashSet<int> hashSet = new HashSet<int>();
             for (int i = 0; i < nums.Length; i++)
             {
-                int val = nums[i];
-                if (set.Contains(val))
+                // 滑动窗口大小为k+1
+                if (i > k)
                 {
-                    return true;
+                    // 为了保持滑动窗口大小，右移时需要去掉左端点
+                    hashSet.Remove(nums[i - k - 1]);
                 }
-                set.Add(val);
-                if (set.Count > k)
+                if (!hashSet.Add(nums[i]))
                 {
-                    set.Remove(nums[i - k]);
+                    // 添加失败，说明在这个窗口中出现重复数
+                    return true;
                 }
             }
             return false;
+
         }
 
 
