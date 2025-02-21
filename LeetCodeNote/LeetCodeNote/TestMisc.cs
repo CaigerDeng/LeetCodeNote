@@ -12,15 +12,17 @@ namespace LeetCodeNote
     {
         public void Run()
         {
+            SortedSet<int> sortedSet = new SortedSet<int>();
+            sortedSet.Add(14);
+            sortedSet.Add(0);
+            sortedSet.Add(6);
+            sortedSet.Add(5);
+            sortedSet.Add(14);
 
-            Dictionary<int, int> dic = new Dictionary<int, int>();
-            dic[2] = 5;
-            foreach (KeyValuePair<int, int> pair in dic)
+            foreach (int i in sortedSet)
             {
-                Console.WriteLine("{0}:{1}", pair.Key, pair.Value);
+                Console.Write(i + ", ");
             }
-
-
 
         }
 

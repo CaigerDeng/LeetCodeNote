@@ -20,12 +20,12 @@ namespace LeetCodeNote
             //TestMisc t = new TestMisc();
             //t.Run();
 
-            Solution_128 a = new Solution_128();
+            Solution_57 a = new Solution_57();
             a.Run();
 
 
-
-            Console.WriteLine("--------------------end");
+            Console.WriteLine();
+            Console.WriteLine("-------------------- Program end");
             Console.ReadLine();
 
         }
